@@ -20,6 +20,128 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
+.hero {
+  width: 100%;
+  height: 70vh;
+  background-image: url('../images/DAVID_SPLASH_PAGE_2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: right;
+  justify-content: center;
+}
+
+header{
+  background: pink;
+  margin-bottom: 1.45rem;
+}
+
+header .burger-btn {
+  background: pink;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin: 20px;
+  z-index: 1000;
+  position: relative;
+
+}
+header .burger-btn span {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background: #303030;
+  border-radius: 2px;
+  margin: 5px;
+  -webkit-transition: .65s;
+  transition: .65s;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header .burger-btn span:nth-child(1) {
+  top: 0;
+}
+header .burger-btn span:nth-child(2) {
+  width: 20px;
+  left: 0;
+  top: 13px;
+}
+header .burger-btn span:nth-child(3) {
+  bottom: 0;
+}
+header .burger-btn:hover, header .burger-btn:focus {
+  -webkit-transition: .65s;
+  transition: .65s;
+}
+header .burger-btn:hover span:nth-child(2), header .burger-btn:focus span:nth-child(2) {
+  left: 10px;
+}
+header .active {
+  width: 40px;
+  display: block;
+}
+header .active span:nth-child(1) {
+  -webkit-transform: rotate(0.125turn);
+          transform: rotate(0.125turn);
+  top: 13px;
+}
+header .active span:nth-child(2) {
+  left: -100px;
+}
+header .active span:nth-child(3) {
+  -webkit-transform: rotate(-0.625turn);
+          transform: rotate(-0.625turn);
+  bottom: 13px;
+}
+header .active:hover span:nth-child(2), header .active:focus span:nth-child(2) {
+  left: -200px;
+}
+header .menu {
+  background: #ffaaaa;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  align-items: center;
+  justify-content: center;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  -webkit-transition: .65s;
+  transition: .65s;
+}
+header .menu-active {
+  height: 100%;
+  height: 100vh;
+}
+
+header nav ul {
+  text-align: center;
+  list-style: none;
+}
+
+header nav ul li {
+  padding: 2px 5px;
+  color: inherit;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  font-size: 2.25rem;
+  line-height: 2;
+}
+
+
 article,
 aside,
 details,
@@ -85,7 +207,7 @@ h1 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 3.25rem;
   line-height: 1.1;
 }
 mark {

@@ -1,23 +1,18 @@
 import React, {useState} from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import "./layout.css"
 
 
 function Header({ siteTitle }) {
 
-  const [ menuOpen, setMenuOpen] = useState(false)
-  
-  const handleClick = () => {
-    setMenuOpen(!menuOpen)
+  const [menuOpen, setMenuOpen] = useState(false)
+  const handleMenuClick = () => {
+    menuOpen ?
+      setMenuOpen(false) : setMenuOpen(true)
   }
+
   return(
-    <header
-      style={{
-        background: `pink`,
-        marginBottom: `1.45rem`,
-      }}
-    >
+    <header >
       <div
         style={{
           margin: `0 auto`,
@@ -25,7 +20,23 @@ function Header({ siteTitle }) {
           padding: `1.45rem 1.0875rem`,
         }}
       >
-        <h1 style={{ margin: 0 }}>
+        <button
+          class={menuOpen ? "burger-btn active" : "burger-btn"}
+          onClick={handleMenuClick}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class={menuOpen ? "menu menu-active" : "menu"}>
+          <ul>
+            <li>Articles</li>
+            <li>Podcast</li>
+            <li>Astrology Readings</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+        {/* <h1 style={{ margin: 0 }}>
           <Link
             to="/"
             style={{
@@ -33,9 +44,9 @@ function Header({ siteTitle }) {
               textDecoration: `none`,
             }}
           >
-            {siteTitle}
+      
           </Link>
-        </h1>
+        </h1> */}
         
       </div>
     </header>

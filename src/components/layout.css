@@ -19,13 +19,13 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+
 article,
 aside,
 details,
 figcaption,
 figure,
 footer,
-header,
 main,
 menu,
 nav,
@@ -594,4 +594,13 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.burger-btn {
+     background: #ffffff;
+        width: 40px;
+        height: 40px;
+        border: 5px solid;
+        outline: none;
+        margin: '20px'
 }

@@ -26,7 +26,7 @@ function Header({ siteTitle }) {
         // }}
       >
         <button
-          class={menuOpen ? "burger-btn active" : "burger-btn"}
+          className={menuOpen ? "burger-btn active" : "burger-btn"}
           onClick={handleMenuClick}
         >
           <span></span>

@@ -41,12 +41,12 @@ function Header({ siteTitle }) {
             <Link to='/podcast' style={linkStyles}>
               <li>Podcast</li>
             </Link>
-            <Link to='/astrology' style={linkStyles}>
+            {/* <Link to='/astrology' style={linkStyles}>
               <li>Astrology Readings</li>
             </Link>
             <Link to='/contact' style={linkStyles}>
               <li>Contact</li>
-            </Link>
+            </Link> */}
             <Link to='/' style={linkStyles}>
               <li>Home</li>
             </Link>

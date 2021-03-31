@@ -12,6 +12,7 @@ const Hero = () => {
                     <Link to="about-section" smooth duration={1000}>
                     <h2>Welcome to the world of</h2>
                     <h1>DAVID ODYSSEY</h1>
+                        <h3>↓</h3>
                     </Link>
                 </div>
             </div>

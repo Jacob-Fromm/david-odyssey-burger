@@ -13,6 +13,7 @@ function Header({ siteTitle }) {
 
   const linkStyles = {
     textDecoration: 'none',
+    color: '#673AB7'
   }
 
   return(
@@ -45,6 +46,9 @@ function Header({ siteTitle }) {
             </Link>
             <Link to='/contact' style={linkStyles}>
               <li>Contact</li>
+            </Link>
+            <Link to='/' style={linkStyles}>
+              <li>Home</li>
             </Link>
           </ul>
         </nav>

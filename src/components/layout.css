@@ -30,21 +30,31 @@ body {
 }
 
 
-
-
-
 #about-section {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* margin-left: 10vw; */
+
+}
+
+#about-section:hover {
+  color: black;
   justify-content: space-between;
 }
 
 #about-podcast {
    display: flex;
+   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 #about-readings {
    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -52,8 +62,9 @@ body {
   color: black;
   /* background-color: white; */
   width: 45vw;
-  margin: 10vw 10vh;
-  padding: 10px 10px 10px 10px; 
+  min-width: 250px;
+  margin: 10vw 5vw 3vw 10vw;
+  /* padding: 10px 10px 10px 10px;  */
 }
 
 .about-main h3:hover {
@@ -69,7 +80,15 @@ body {
 .about-title{
   color: white;
   align-self:center;
-  margin-right: 10em;
+  margin-left: 10vw;
+  width: 300px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 
@@ -221,6 +240,18 @@ header nav ul li:hover{
 footer {
   background: pink;
   margin-top: 0;
+}
+
+.inner-nav {
+  width: 10vw;
+  border-radius: 10em;
+  box-shadow: 5px 5px white;
+    -webkit-transition: .65s;
+}
+
+.inner-nav:hover {
+  transform: scale(1.05);
+  transition: .65s
 }
 
 .link-btn {

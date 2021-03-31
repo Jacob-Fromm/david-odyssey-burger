@@ -11,7 +11,7 @@ import About from "../components/About"
 const IndexPage = () => {
   return(
     <Layout>
-        <SEO title="Home" />
+        <SEO title="David Odyssey" />
         <Hero />
         <About />
     </Layout>

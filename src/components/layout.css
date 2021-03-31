@@ -122,9 +122,24 @@ body {
   margin: 10px 30px 10px 30px
 }
 
-.podcast h4 {
-  line-height: 1.4em;
+.podcast h1{
+  text-decoration: underline white;
 }
+
+
+.podcast h4 {
+  background-color: white;
+  padding: 1em;
+  line-height: 1.4em;
+  box-shadow: 10px 10px yellow;
+  color: #6969E9;
+}
+
+.podcast-text {
+  align-items: center;
+}
+
+
 
 
 #about-section {
@@ -393,13 +408,14 @@ footer {
 
 .link-btn {
   background: #6969E9;
+  font-size: 1.5rem;
   color:white;
   height: 60px;
   width: 150px;
   line-height: 50px;
-  margin-right: 10px;
+  margin-right: 20px;
   text-align: center;
-  padding: 0.5rem;
+  padding: .5rem;
   align-items: center;
   border: 0;
   transition: all 0.3s ease 0s;

@@ -7,6 +7,7 @@ import {
 } from '../lib/helpers'
 import { Link } from 'react-scroll'
 import ArticlePreviewGrid from '../components/Article/article-preview-grid'
+import Layout from '../components/layout'
 
 export const query = graphql`
   query ArticlePageQuery {
@@ -68,12 +69,13 @@ export default function Articles(props) {
     console.log("article page data ", data)
     return (
     <>
-        <h1>Articles</h1>
+    <Layout>
         <ArticlePreviewGrid
         title='Latest Articles'
         articles={data.articles.edges}
         browseMoreHref='/archive/'
           />
+    </Layout>
     </>
     )
 }

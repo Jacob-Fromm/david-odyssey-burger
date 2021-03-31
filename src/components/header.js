@@ -14,11 +14,11 @@ function Header({ siteTitle }) {
   return(
     <header >
       <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `1.45rem 1.0875rem`,
-        }}
+        // style={{
+        //   margin: `0 auto`,
+        //   maxWidth: 960,
+        //   padding: `1.45rem 1.0875rem`,
+        // }}
       >
         <button
           class={menuOpen ? "burger-btn active" : "burger-btn"}

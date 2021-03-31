@@ -11,6 +11,10 @@ function Header({ siteTitle }) {
       setMenuOpen(false) : setMenuOpen(true)
   }
 
+  const linkStyles = {
+    textDecoration: 'none',
+  }
+
   return(
     <header >
       <div
@@ -30,10 +34,18 @@ function Header({ siteTitle }) {
         </button>
         <nav class={menuOpen ? "menu menu-active" : "menu"}>
           <ul>
-            <li>Articles</li>
-            <li>Podcast</li>
-            <li>Astrology Readings</li>
-            <li>Contact</li>
+            <Link to='/articles' style={linkStyles}>
+              <li>Articles</li>
+            </Link>
+            <Link to='/podcast' style={linkStyles}>
+              <li>Podcast</li>
+            </Link>
+            <Link to='/astrology' style={linkStyles}>
+              <li>Astrology Readings</li>
+            </Link>
+            <Link to='/contact' style={linkStyles}>
+              <li>Contact</li>
+            </Link>
           </ul>
         </nav>
         {/* <h1 style={{ margin: 0 }}>

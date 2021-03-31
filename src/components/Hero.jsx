@@ -7,8 +7,8 @@ const Hero = () => {
             width: '100vw'
         }}>
             <div className="hero-text" >
-                <h1>David Odyssey</h1>
-                <h3>enter the angel dimension</h3>
+                <h2>Welcome to the world of</h2>
+                <h1>DAVID ODYSSEY</h1>
             </div>
          </div>
     )

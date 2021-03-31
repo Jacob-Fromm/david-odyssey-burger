@@ -19,16 +19,21 @@ export default function About(){
                 <h3>As a former editor at Time Out New York, and as a contributor to DAZED, Vulture, EW, The InQueery and other sites, he has covered queer, alternative and emerging artistic scenes.</h3> 
                 
                 <h3>On his podcast The Luminaries and at live salons and cabaret shows, he explores the origin stories and cosmic makeup of his guests (and uncovers his own epic saga). Through Tarot and astrology, he offers an archetypal framework for the current moment. He lives, eternally, in New York City. </h3>
+            <Link to="/podcast" style={linkStyles}>
+              <h5 id="long-nav" className="inner-nav">EXPLORE DAVID'S WRITING{'>'} </h5>
+            </Link>
             </div>
         </section>
         <section className="about" id="about-podcast">
             <div className="about-title">
+              <Link className="about-title" to="/podcast" style={{textDecoration: 'none'}}>
                 <h1>PODCAST</h1>
+            </Link>
             </div>
             <div className="about-main">
                 <h3>The Luminaries with David Odyssey features the new gods of the comedy, drag, cabaret and literary scenes, sharing their life stories and celebrating the astrology of their greatest influences. Available on Apple Podcasts, Spotify, and wherever podcasts are sold. </h3>
                 <Link to="/podcast" style={linkStyles}>
-              <h5 className="inner-nav">LEARN MORE {'>'} </h5>
+              <h5 className="inner-nav">LEARN MORE{'>'} </h5>
                 </Link>
             </div>
         </section>
@@ -39,7 +44,7 @@ export default function About(){
             <div className="about-main">
                 <h3>David Odyssey offers archetypal, intuitive readings through astrology and the Tarot. All readings are new-user friendly, and conducted over Zoom. Options, rates and reading packages abound; sliding scale is available. Contact adavidodyssey@gmail.com for more information.  </h3>
             <Link to="/podcast" style={linkStyles}>
-              <h5 className="inner-nav">LEARN MORE {'>'} </h5>
+              <h5 className="inner-nav">BOOK A READING {'>'} </h5>
             </Link>
             </div>
         </section>

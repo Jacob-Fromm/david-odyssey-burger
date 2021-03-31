@@ -155,23 +155,6 @@ body {
   justify-content: space-between;
 }
 
-.about-main {
-  color: black;
-  /* background-color: white; */
-  width: 45vw;
-  min-width: 250px;
-  margin: 10vw 5vw 3vw 10vw;
-  /* padding: 10px 10px 10px 10px;  */
-}
-
-.about-main h3:hover {
-  color: white;
-  transition: .65s;
-}
-
-.about-main h3 {
-   -webkit-transition: .65s;
-}
 
 
 .about-title{
@@ -181,13 +164,55 @@ body {
   width: 300px;
 }
 
+
+
 .about {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 10px;
+   -webkit-transition: .65s;
 }
 
+.about:hover h1 {
+  color: yellow;
+  transition: .65s
+}
+
+.about h1 {
+   -webkit-transition: .65s;
+}
+
+.about:hover .about-main {
+  box-shadow: 10px 10px white;
+  transition: .65s
+}
+
+.about-main {
+  color: black;
+  /* background-color: white; */
+  width: 45vw;
+  min-width: 250px;
+  margin: 1vw 5vw 3vw 10vw;
+  box-shadow: 10px 10px yellow;
+  /* padding: 10px 10px 10px 10px;  */
+   -webkit-transition: .65s;
+}
+
+.about-main:hover {
+  
+}
+
+.about-main h3:hover {
+  color: white;
+  transition: .65s;
+
+}
+
+.about-main h3 {
+   -webkit-transition: .65s;
+}
 
 .hero {
   display: flex;
@@ -202,12 +227,19 @@ body {
 }
 
 .hero-text {
+  height: 300px;
   margin-right: 40px;
   position: relative;
-  top: 50%;
+  top: 65%;
   text-align: right;
   color: white;
    -webkit-transition: .65s;
+}
+
+@media (min-width: 450px){
+  .hero-text {
+    top: 50%;
+  }
 }
 
 .hero-text:hover {
@@ -293,6 +325,7 @@ header .active:hover span:nth-child(2), header .active:focus span:nth-child(2) {
   left: -200px;
 }
 header .menu {
+  /* display: none; */
   background: pink;
   overflow: hidden;
   width: 100%;
@@ -305,6 +338,7 @@ header .menu {
   transition: .65s;
 }
 header .menu-active {
+  /* display: block; */
   height: 100%;
   height: 100vh;
   z-index: 1000;
@@ -340,7 +374,8 @@ footer {
 }
 
 .inner-nav {
-  width: 10vw;
+  min-width: 130px;
+  width: 15vw;
   border-radius: 10em;
   box-shadow: 5px 5px white;
     -webkit-transition: .65s;
@@ -349,6 +384,11 @@ footer {
 .inner-nav:hover {
   transform: scale(1.05);
   transition: .65s
+}
+
+#long-nav {
+  min-width: 250px;
+  width: 15vw;
 }
 
 .link-btn {

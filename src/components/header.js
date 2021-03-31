@@ -41,6 +41,9 @@ function Header({ siteTitle }) {
             <Link to='/podcast' style={linkStyles}>
               <li>Podcast</li>
             </Link>
+            <Link to='/readings' style={linkStyles}>
+              <li>Readings</li>
+            </Link>
             {/* <Link to='/astrology' style={linkStyles}>
               <li>Astrology Readings</li>
             </Link>

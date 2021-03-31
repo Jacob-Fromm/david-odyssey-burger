@@ -263,6 +263,51 @@ body {
   
 }
 
+.readings {
+  height: 100vh;
+  background-image: url('../images/DAVID_ASTROLOGY.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.readings h1 {
+  box-shadow: 10px 10px yellow;
+  margin-left: 10px;
+
+}
+
+.readings h3 {
+  margin-left: 10px;
+  padding: .5em;
+  background-color: black;
+  color: white
+}
+
+.readings h3 a {
+  color: pink;
+}
+
+.readings-detail-info {
+  width: 500px;
+}
+
+
+  
+
+/* .readings-detail-info {
+  color: yellow;
+  width: 150;
+  height: 100px;
+ text-align: right;
+ background-color: red;
+} */
+
 header{
   background: pink;
   /* margin-bottom: 1.45rem; */

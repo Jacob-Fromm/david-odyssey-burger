@@ -33,11 +33,18 @@ body {
 }
 
 .hero-text {
-  margin-right: 10px;
+  margin-right: 40px;
   position: absolute;
-  top: 56%;
+  top: 65%;
   text-align: right;
   color: white;
+   -webkit-transition: .65s;
+}
+
+.hero-text:hover {
+  color: purple;
+  transition: .65s;
+  
 }
 
 header{

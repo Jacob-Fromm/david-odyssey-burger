@@ -42,10 +42,10 @@ export default function About(){
                 <h1>READINGS</h1>
             </div>
             <div className="about-main">
-                <h3>David Odyssey offers archetypal, intuitive readings through astrology and the Tarot. All readings are new-user friendly, and conducted over Zoom. Options, rates and reading packages abound; sliding scale is available. Contact adavidodyssey@gmail.com for more information.  </h3>
-            <Link to="/podcast" style={linkStyles}>
-              <h5 className="inner-nav">BOOK A READING {'>'} </h5>
-            </Link>
+            <h3>David Odyssey offers archetypal, intuitive readings through astrology and the Tarot. All readings are new-user friendly, and conducted over Zoom. Options, rates and reading packages abound; sliding scale is available. Contact <a href="mailto: adavidodyssey.com">adavidodyssey@gmail.com</a> for more information.  </h3>
+            
+            <a style={linkStyles} href="mailto: adavidodyssey.com"><h5 className="inner-nav">BOOK A READING {'>'} </h5></a>
+  
             </div>
         </section>
         {/* <div class="scrollHalf">

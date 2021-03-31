@@ -118,6 +118,10 @@ body {
   text-decoration: none;
 }
 
+.article-preview img {
+  /* box-shadow: 0px 5px yellow; */
+}
+
 .podcast {
   margin: 10px 30px 10px 30px
 }
@@ -273,7 +277,6 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 .readings h1 {

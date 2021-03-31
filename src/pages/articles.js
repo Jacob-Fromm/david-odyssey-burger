@@ -11,7 +11,7 @@ import Layout from '../components/layout'
 
 export const query = graphql`
   query ArticlePageQuery {
-    articles: allSanityArticle {
+    articles: allSanityArticle(sort: {fields: publicationDate, order: DESC}) {
     edges {
       node {
         id

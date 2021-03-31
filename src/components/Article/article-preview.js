@@ -23,7 +23,7 @@ function ArticlePreview(props) {
                 />
             </div>
             <h3 >{props.headline}</h3>
-            <h5>for {props.publication}</h5>
+            <h5>for {props.publication} on {props.publicationDate}</h5>
         </Link>
     )
 }

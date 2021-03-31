@@ -1,10 +1,11 @@
 import * as React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/Hero"
 import About from "../components/About"
+import {Link} from 'react-scroll'
 
 const IndexPage = () => {
   return(
@@ -12,9 +13,8 @@ const IndexPage = () => {
         <SEO title="Home" />
         <Hero />
         <About />
-      </Layout>
-   
-  )
+    </Layout>
+    )
   }
 
 export default IndexPage

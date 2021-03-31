@@ -21,6 +21,33 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
+.podcast {
+  margin: 10px 30px 10px 30px
+}
+
+.podcast h4 {
+  line-height: 1.4em;
+}
+
+
+
+
+
+#about-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+#about-podcast {
+   display: flex;
+  justify-content: space-between;
+}
+
+#about-readings {
+   display: flex;
+  justify-content: space-between;
+}
+
 .about-main {
   color: black;
   /* background-color: white; */
@@ -37,6 +64,14 @@ body {
 .about-main h3 {
    -webkit-transition: .65s;
 }
+
+
+.about-title{
+  color: white;
+  align-self:center;
+  margin-right: 10em;
+}
+
 
 .hero {
   display: flex;
@@ -179,13 +214,42 @@ header nav ul li {
 
 header nav ul li:hover{
   transform: scale(1.05);
-  color: purple;
+  color: white;
   transition: .65s;
 }
 
 footer {
   background: pink;
   margin-top: 0;
+}
+
+.link-btn {
+  background: #6969E9;
+  color:white;
+  height: 60px;
+  width: 150px;
+  line-height: 50px;
+  margin-right: 10px;
+  text-align: center;
+  padding: 0.5rem;
+  align-items: center;
+  border: 0;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+
+.link-btn {
+  opacity: 1;
+}
+
+.link-btn:hover {
+  opacity: 0.75;
+}
+
+.iframe {
+  box-shadow: 10px 10px white;
 }
 
 
@@ -633,6 +697,7 @@ iframe {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+  height: 50vh;
 }
 address {
   margin-left: 0;

@@ -10,9 +10,9 @@ export default function About(){
     return(
         <>
         <section className="about" id="about-section">
-            <div className="about-title">
-                <h1>ABOUT</h1>
-            </div>
+          <Link className="about-title" to="/articles" style={{ textDecoration: 'none' }}>
+            <h1>ABOUT</h1>
+          </Link>
             <div className="about-main">
                 <h3>In his work as a journalist, performer and diviner, David Odyssey charts a course through the stories of the real and the mythic.</h3>
 

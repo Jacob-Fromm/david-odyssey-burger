@@ -1,7 +1,7 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 112.5%/1.45em georgia, serif, sans-serif;
+  font: 112.5%/1.45em "spectral", serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -11,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
   background-color: #BD6597;
-  font-family: georgia, serif;
+  font-family: "Spectral", sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -116,6 +116,7 @@ body {
 
 .article-preview h3{
   text-decoration: none;
+  font-weight: normal;
 }
 
 .article-preview img {
@@ -180,7 +181,7 @@ body {
   color: white;
   align-self:center;
   margin-left: 10vw;
-  width: 300px;
+  width: 330px;
 }
 
 
@@ -270,9 +271,17 @@ body {
    -webkit-transition: .65s;
 }
 
-@media (min-width: 450px){
+@media (max-width: 450px){
   .hero-text {
-    top: 50%;
+    right: 30%;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 40%;
+    text-align: right;
+    line-height: 1em;
+
   }
 }
 
@@ -284,27 +293,29 @@ body {
 
 .readings {
   height: 100vh;
-  background-image: url('../images/DAVID_ASTROLOGY.jpg');
+  /* background-image: url('../images/DAVID_ASTROLOGY.jpg');
   background-position: top;
   background-size: contain;
-  background-repeat: no-repeat;
-  /* display: flex;
-  flex-direction: column;
+  background-repeat: no-repeat; */
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between; */
+  align-items: left;
+  justify-content: space-evenly;
 }
 
 
 .readings h1 {
+  align-self: left;
   box-shadow: 10px 10px yellow;
-  margin-left: 10px;
+  margin-left: 0px;
   
 }
 
 .readings h3 {
  
-  margin-top: 17em;
-  position: fixed;
+  /* margin-top: 17em; */
+  /* position: fixed; */
   padding: .5em;
   background-color: black;
   color: white;
@@ -318,35 +329,28 @@ body {
 
 
 
-@media (max-width: 450px){
+/* @media (max-width: 828px){
   .readings {
   display: flex;
-  flex-direction: column;
-  justify-items: left;
-  justify-content: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-position:top;
+  background-size: contain;
   }
 
   .readings h1 {
-    margin-left: 0;
+    margin-left: 8em;
     padding-left: 0;
   }
   
   .readings h3 {
-    width: 350px;
-    margin: 2em;
-    padding-left: .5em;
+    min-width: 500px;
+    margin-top: 7em;
+    padding: .5em;
+    /* margin-left: 3em; */
     
-  }
-}
-  
-
-/* .readings-detail-info {
-  color: yellow;
-  width: 150;
-  height: 100px;
- text-align: right;
- background-color: red;
-} */
+  /* } */
+/* } */ 
 
 header{
   background: #BD6597;
@@ -453,8 +457,8 @@ header nav ul {
 
 header nav ul li {
 
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  color: #673AB7;
+  font-family: -apple-system, "Spectral",BlinkMacSystemFont,  Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
@@ -584,9 +588,9 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, "Spectral", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight:normal;
   text-rendering: optimizeLegibility;
   font-size: 3.25rem;
   line-height: 1.1;
@@ -763,9 +767,9 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, "Spectral", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
@@ -780,7 +784,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, "Spectral", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: normal;
   text-rendering: optimizeLegibility;
@@ -797,9 +801,9 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, "Spectral", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
@@ -814,9 +818,9 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, "Spectral", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
@@ -831,9 +835,9 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, "Spectral", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;

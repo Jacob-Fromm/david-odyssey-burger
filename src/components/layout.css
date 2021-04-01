@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  background-color: pink;
+  background-color: #BD6597;
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -203,10 +203,20 @@ body {
    -webkit-transition: .65s;
 }
 
-.about:hover .about-main {
-  box-shadow: 10px 10px white;
-  transition: .65s
+.about:hover .about-main{
+  color: yellow;
+  box-shadow: 10px 10px #FEFF6F;
 }
+
+/* .about:hover .about-main {
+  box-shadow: 10px 10px #FEFF6F;
+  color: yellow;
+  transition: .65s
+} */
+
+/* .about .about-main {
+   -webkit-transition: .65s;
+} */
 
 .about-main {
   color: black;
@@ -214,24 +224,14 @@ body {
   width: 45vw;
   min-width: 250px;
   margin: 1vw 5vw 3vw 10vw;
-  box-shadow: 10px 10px yellow;
+  box-shadow: 10px 10px white;
   /* padding: 10px 10px 10px 10px;  */
    -webkit-transition: .65s;
 }
 
-.about-main:hover {
-  
-}
-
-.about-main h3:hover {
-  color: white;
-  transition: .65s;
-
-}
-
-.about-main h3 {
+/* .about-main h3 {
    -webkit-transition: .65s;
-}
+} */
 
 .hero {
   display: flex;
@@ -302,7 +302,7 @@ body {
 }
 
 .readings h3 a {
-  color: pink;
+  color: #BD6597;
   
 }
 
@@ -340,12 +340,12 @@ body {
 } */
 
 header{
-  background: pink;
+  background: #BD6597;
   /* margin-bottom: 1.45rem; */
 }
 
 header .burger-btn {
-  background: pink;
+  background: #BD6597;
   padding: 0;
   width: 40px;
   height: 40px;
@@ -417,7 +417,7 @@ header .active:hover span:nth-child(2), header .active:focus span:nth-child(2) {
 }
 header .menu {
   /* display: none; */
-  background: pink;
+  background: #BD6597;
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -461,7 +461,7 @@ header nav ul li:hover{
 }
 
 footer {
-  background: pink;
+  background: #BD6597;
   margin-top: 0;
 }
 

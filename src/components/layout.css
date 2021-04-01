@@ -271,7 +271,7 @@ body {
   height: 100vh;
   background-image: url('../images/DAVID_ASTROLOGY.jpg');
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: row;
@@ -287,34 +287,46 @@ body {
 }
 
 .readings h3 {
+  /* margin: 1rem; */
   margin-left: 10px;
+  width: 400px;
+  padding: .5em;
+  min-width: 50px;
+  background-color: black;
+  color: white;
+  justify-self: baseline;
+  /* margin-left: 10px;
   padding: .5em;
   background-color: black;
-  color: white
+  color: white */
 }
 
 .readings h3 a {
   color: pink;
+  
 }
 
-.readings-detail-info {
-  width: 500px;
-  margin-top: 10rem;
-}
+
 
 
 @media (max-width: 450px){
   .readings {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-items: left;
+  justify-content: flex;
   }
 
-  .readings h3 {
-    margin-right: 10px;
+  .readings h1 {
+    margin-left: 0;
     padding-left: 0;
-    margin-top: 20vh;
+  }
+  
+  .readings h3 {
+    width: 350px;
+    margin: 2em;
+    padding-left: .5em;
+    
   }
 }
   

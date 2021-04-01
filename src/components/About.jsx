@@ -11,7 +11,9 @@ export default function About(){
         <>
         <section className="about" id="about-section">
             <div className="about-title">
-                <h1>ABOUT</h1>
+            <Link className="about-title" to="/articles" style={{ textDecoration: 'none' }}>
+              <h1>ABOUT</h1>
+            </Link>
             </div>
             <div className="about-main">
                 <h3>In his work as a journalist, performer and diviner, David Odyssey charts a course through the stories of the real and the mythic.</h3>
@@ -38,9 +40,9 @@ export default function About(){
             </div>
         </section>
         <section className="about" id="about-readings">
-            <div className="about-title">
-                <h1>READINGS</h1>
-            </div>
+          <Link className="about-title" to="/readings" style={{ textDecoration: 'none' }}>
+            <h1>READINGS</h1>
+          </Link>
             <div className="about-main">
             <h3>David Odyssey offers archetypal, intuitive readings through astrology and the Tarot. All readings are new-user friendly, and conducted over Zoom. Options, rates and reading packages abound; sliding scale is available. Contact <a href="mailto: adavidodyssey.com">adavidodyssey@gmail.com</a> for more information.  </h3>
             

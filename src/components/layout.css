@@ -1,7 +1,7 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 112.5%/1.45em georgia, serif, sans-serif;
+  font: 112.5%/1.45em "spectral", serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -10,8 +10,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  background-color: pink;
-  font-family: georgia, serif;
+  background-color: rgb(255, 40, 208);
+  font-family: "Spectral", sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -180,7 +180,7 @@ body {
   color: white;
   align-self:center;
   margin-left: 10vw;
-  width: 300px;
+  width: 330px;
 }
 
 
@@ -191,6 +191,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 10px;
+  margin-bottom: 2em;
    -webkit-transition: .65s;
 }
 
@@ -213,7 +214,7 @@ body {
   /* background-color: white; */
   width: 45vw;
   min-width: 250px;
-  margin: 1vw 5vw 3vw 10vw;
+  margin: 2vh 5vw 7vh 10vw;
   box-shadow: 10px 10px yellow;
   /* padding: 10px 10px 10px 10px;  */
    -webkit-transition: .65s;
@@ -230,7 +231,14 @@ body {
 }
 
 .about-main h3 {
+  font-size: 1.1em;
    -webkit-transition: .65s;
+   color: white;
+   font-weight: 400;
+}
+
+.about-main h3 a {
+  color: yellow;
 }
 
 .hero {
@@ -302,7 +310,7 @@ body {
 }
 
 .readings h3 a {
-  color: pink;
+  color: rgb(255, 40, 208);
   
 }
 
@@ -340,12 +348,12 @@ body {
 } */
 
 header{
-  background: pink;
+  background: rgb(255, 40, 208);
   /* margin-bottom: 1.45rem; */
 }
 
 header .burger-btn {
-  background: pink;
+  background: rgb(255, 40, 208);
   padding: 0;
   width: 40px;
   height: 40px;
@@ -417,7 +425,7 @@ header .active:hover span:nth-child(2), header .active:focus span:nth-child(2) {
 }
 header .menu {
   /* display: none; */
-  background: pink;
+  background: rgb(255, 40, 208);
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -444,8 +452,8 @@ header nav ul {
 
 header nav ul li {
 
-  color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  color: white;
+  font-family: -apple-system, "Spectral",BlinkMacSystemFont,  Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
@@ -456,18 +464,19 @@ header nav ul li {
 
 header nav ul li:hover{
   transform: scale(1.05);
-  color: white;
+  color: black;
   transition: .65s;
 }
 
 footer {
-  background: pink;
+  background: rgb(255, 40, 208);
   margin-top: 0;
 }
 
 .inner-nav {
+  color: yellow;
   min-width: 130px;
-  width: 15vw;
+  width: 20vw;
   border-radius: 10em;
   box-shadow: 5px 5px white;
     -webkit-transition: .65s;
@@ -574,9 +583,9 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, "Spectral", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight:normal;
   text-rendering: optimizeLegibility;
   font-size: 3.25rem;
   line-height: 1.1;
@@ -753,9 +762,9 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, "Spectral", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
   line-height: 1.1;
@@ -770,9 +779,9 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, "Spectral", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: lighter;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
   line-height: 1.1;
@@ -787,9 +796,9 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, "Spectral", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: lighter;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
   line-height: 1.1;
@@ -804,9 +813,9 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, "Spectral", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: lighter;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
   line-height: 1.1;
@@ -821,9 +830,9 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: -apple-system, "Spectral", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: lighter;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
   line-height: 1.1;

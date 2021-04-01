@@ -1,11 +1,11 @@
 export default {
   widgets: [
-    {
-      name: 'sanity-tutorials',
-      options: {
-        templateRepoId: 'sanity-io/sanity-template-gatsby-portfolio'
-      }
-    },
+    // {
+    //   name: 'sanity-tutorials',
+    //   options: {
+    //     templateRepoId: 'sanity-io/sanity-template-gatsby-portfolio'
+    //   }
+    // },
     {name: 'structure-menu'},
     {
       name: 'project-info',
@@ -18,17 +18,22 @@ export default {
                 'NOTE: Because these sites are static builds, they need to be re-deployed to see the changes when documents are published.',
               sites: [
                 {
-                  buildHookId: '603583f6f656350f16e4356f',
-                  title: 'Sanity Studio',
-                  name: 'david-odyssey-studio',
-                  apiId: '18646566-7b97-4c7c-9b36-3b1e2ebb0e3a'
-                },
-                {
-                  buildHookId: '603583f6ba11910b166bd13e',
                   title: 'David Odyssey',
-                  name: 'David Odyssey',
-                  apiId: 'dc1e2323-005b-4e00-858a-40df9a34951e'
-                }
+                  name: 'davidodyssey',
+                  apiId: '7c07b417-e3a5-4db9-b654-74518b4294fe'
+                },
+                // {
+                //   buildHookId: '603583f6f656350f16e4356f',
+                //   title: 'Sanity Studio',
+                //   name: 'david-odyssey-studio',
+                //   apiId: '18646566-7b97-4c7c-9b36-3b1e2ebb0e3a'
+                // },
+                // {
+                //   buildHookId: '603583f6ba11910b166bd13e',
+                //   title: 'David Odyssey',
+                //   name: 'David Odyssey',
+                //   apiId: 'dc1e2323-005b-4e00-858a-40df9a34951e'
+                // }
               ]
             }
           }

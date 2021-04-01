@@ -135,9 +135,6 @@ body {
   font-weight: normal;
 }
 
-.article-preview img {
-  /* box-shadow: 0px 5px yellow; */
-}
 
 .podcast {
   margin: 10px 30px 10px 30px
@@ -393,14 +390,16 @@ header .burger-btn {
   margin: 20px;
   z-index: 1000;
   position: relative;
+  color: white;
 
 }
+
 header .burger-btn span {
   display: block;
   position: absolute;
   width: 30px;
   height: 3px;
-  background: #303030;
+  background: white;
   border-radius: 2px;
   margin: 5px;
   -webkit-transition: .65s;
@@ -454,6 +453,7 @@ header .active span:nth-child(3) {
 header .active:hover span:nth-child(2), header .active:focus span:nth-child(2) {
   left: -200px;
 }
+
 header .menu {
   /* display: none; */
   background: #BD6597;

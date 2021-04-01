@@ -15,7 +15,7 @@ function ArticlePreview(props) {
             <div className="article-preview">
                 <img
                     src={urlFor(props.image)
-                        .width(600)
+                        .width(400)
                         .height(Math.floor((9 / 16) * 600))
                         .url()}
                     alt={props.headline}

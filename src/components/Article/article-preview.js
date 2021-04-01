@@ -6,7 +6,6 @@ import { responsiveTitle3, responsiveTitle4 } from '../typography.module.css'
 import { cn, buildImageObj } from '../../lib/helpers'
 
 function ArticlePreview(props) {
-    console.log("article props", props)
     const linkStyles = {
         textDecoration: 'none',
         color: 'black'

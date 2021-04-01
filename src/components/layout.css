@@ -326,6 +326,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   background-position:top;
+  background-size: contain;
   }
 
   .readings h1 {

@@ -137,7 +137,11 @@ body {
 
 
 .podcast {
-  margin: 10px 30px 10px 30px
+  /* background-image: url('../images/podcast-image.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; */
+  margin: 10px 30px 10px 30px;
 }
 
 .podcast h1{
@@ -160,12 +164,16 @@ body {
 }
 
 .podcast-text {
+  display: flex;
   align-items: center;
+  margin-left: 3em;
 }
 
 .podcast-text h2{
   color: white;
 } 
+
+
 
 
 
@@ -209,13 +217,14 @@ body {
 
 
 
+
 .about {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 10px;
-   -webkit-transition: .65s;
+  -webkit-transition: .65s;
 }
 
 .about:hover h1 {
@@ -224,7 +233,7 @@ body {
 }
 
 .about h1 {
-   -webkit-transition: .65s;
+  -webkit-transition: .65s;
 }
 
 .about:hover .about-main{
@@ -254,7 +263,7 @@ body {
 } */
 
 /* .about .about-main {
-   -webkit-transition: .65s;
+  -webkit-transition: .65s;
 } */
 
 .about-main {
@@ -265,8 +274,9 @@ body {
   margin: 1vw 5vw 3vw 10vw;
   box-shadow: 10px 10px white;
   padding: 10px 10px 0px 10px; 
-   -webkit-transition: .65s;
+  -webkit-transition: .65s;
 }
+
 
 /* .about-main h3 {
    -webkit-transition: .65s;
@@ -324,7 +334,11 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: left;
-  justify-content: space-evenly;
+  justify-content:space-evenly;
+  /* background-image: url('../images/DAVID_ASTROLOGY.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
@@ -333,6 +347,28 @@ body {
   box-shadow: 10px 10px yellow;
   margin-left: 0px;
   
+  
+}
+
+.readings h2{
+  margin-bottom: 10em;
+  background-color: blueviolet;
+}
+
+.readings h2 a {
+  color: white;
+}
+.readings h2 a:hover {
+  color: pink;
+}
+
+#readings-info {
+  text-align: left;
+  color: white;
+  /* background-color: blueviolet; */
+  margin: 2em 1em;
+  box-shadow: white -5px -5px;
+  padding: .5em;
 }
 
 .readings h3 {
@@ -518,6 +554,11 @@ footer {
   transition: .65s
 }
 
+.podcast-header-text {
+  display: flex;
+  flex-direction: colurowmn;
+}
+
 #long-nav {
   min-width: 250px;
   width: 15vw;
@@ -527,8 +568,8 @@ footer {
   background: #6969E9;
   font-size: 1.5rem;
   color:white;
-  height: 60px;
-  width: 150px;
+  /* height: 60px;
+  width: 150px; */
   line-height: 50px;
   margin-right: 20px;
   text-align: center;
@@ -549,8 +590,36 @@ footer {
   opacity: 0.75;
 }
 
+#listen-btn {
+  margin-left: 3em;
+  background: black;
+  font-size: 1.5rem;
+  color:white;
+  /* height: 60px;
+  width: 150px; */
+  line-height: 50px;
+  margin-right: 20px;
+  text-align: center;
+  padding: .5rem;
+  align-items: center;
+  border: 0;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+#listen-btn:hover {
+  box-shadow: 10px 10px 10px magenta;
+}
+
+/* #iframe-container {
+  height: 100vh;
+
+} */
+
 .iframe {
-  box-shadow: 10px 10px white;
+  /* padding: 1.5em; */
+    /* box-shadow: 5px 5px 10px white; */
 }
 
 

@@ -34,7 +34,7 @@ const Layout = ({ children }) => {
         // }}
       >
         <main>{children}</main>
-        <footer
+        {/* <footer
           style={{
             marginTop: 0,
             textAlign: 'center',
@@ -42,7 +42,7 @@ const Layout = ({ children }) => {
           }}
         >
           © {new Date().getFullYear()} David Odyssey
-        </footer>
+        </footer> */}
       </div>
     </>
   )

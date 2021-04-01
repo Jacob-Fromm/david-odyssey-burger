@@ -116,6 +116,7 @@ body {
 
 .article-preview h3{
   text-decoration: none;
+  font-weight: normal;
 }
 
 .article-preview img {

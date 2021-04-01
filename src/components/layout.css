@@ -272,15 +272,15 @@ body {
    -webkit-transition: .65s;
 }
 
-@media (max-width: 900px){
+@media (max-width: 450px){
   .hero-text {
-    right: 20%;
+    right: 30%;
     width: 20vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     top: 40%;
-    text-align: center;
+    text-align: right;
     line-height: 1em;
 
   }

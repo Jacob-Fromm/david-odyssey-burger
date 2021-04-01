@@ -286,27 +286,29 @@ body {
 
 .readings {
   height: 100vh;
-  background-image: url('../images/DAVID_ASTROLOGY.jpg');
+  /* background-image: url('../images/DAVID_ASTROLOGY.jpg');
   background-position: top;
   background-size: contain;
-  background-repeat: no-repeat;
-  /* display: flex;
-  flex-direction: column;
+  background-repeat: no-repeat; */
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between; */
+  align-items: left;
+  justify-content: space-evenly;
 }
 
 
 .readings h1 {
+  align-self: left;
   box-shadow: 10px 10px yellow;
-  margin-left: 10px;
+  margin-left: 0px;
   
 }
 
 .readings h3 {
  
-  margin-top: 17em;
-  position: fixed;
+  /* margin-top: 17em; */
+  /* position: fixed; */
   padding: .5em;
   background-color: black;
   color: white;

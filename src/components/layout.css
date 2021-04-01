@@ -272,7 +272,7 @@ body {
    -webkit-transition: .65s;
 }
 
-@media (min-width: 450px){
+@media (max-width: 900px){
   .hero-text {
     top: 50%;
   }

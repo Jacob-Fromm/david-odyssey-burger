@@ -448,7 +448,7 @@ header nav ul {
 
 header nav ul li {
 
-  color: white;
+  color: #673AB7;
   font-family: -apple-system, "Spectral",BlinkMacSystemFont,  Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
@@ -460,7 +460,7 @@ header nav ul li {
 
 header nav ul li:hover{
   transform: scale(1.05);
-  color: black;
+  color: white;
   transition: .65s;
 }
 

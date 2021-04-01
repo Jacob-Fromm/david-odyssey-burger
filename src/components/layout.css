@@ -165,8 +165,8 @@ body {
 
 .podcast-text {
   display: flex;
-  align-items: center;
-  margin-left: 3em;
+  align-items: space-between;
+  margin: 1em;
 }
 
 .podcast-text h2{
@@ -565,6 +565,7 @@ footer {
 }
 
 .link-btn {
+  margin-top: 1em;
   background: #6969E9;
   font-size: 1.5rem;
   color:white;
@@ -588,6 +589,10 @@ footer {
 
 .link-btn:hover {
   opacity: 0.75;
+}
+
+.link-btn a {
+  margin-top: 2em;
 }
 
 #listen-btn {

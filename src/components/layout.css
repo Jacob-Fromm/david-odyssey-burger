@@ -282,10 +282,10 @@ body {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 
 
@@ -296,20 +296,12 @@ body {
 }
 
 .readings h3 {
-  /* margin: 1rem; */
-  display: block;
-  top: 50%;
-  margin-left: 10px;
-  width: 400px;
+ 
+  margin-top: 17em;
+  position: fixed;
   padding: .5em;
-  min-width: 50px;
   background-color: black;
   color: white;
-  /* justify-self: baseline; */
-  /* margin-left: 10px;
-  padding: .5em;
-  background-color: black;
-  color: white */
 }
 
 .readings h3 a {
@@ -320,7 +312,7 @@ body {
 
 
 
-@media (max-width: 828px){
+/* @media (max-width: 828px){
   .readings {
   display: flex;
   flex-direction: row;
@@ -340,8 +332,8 @@ body {
     padding: .5em;
     /* margin-left: 3em; */
     
-  }
-}
+  /* } */
+/* } */ 
 
 header{
   background: rgb(255, 40, 208);

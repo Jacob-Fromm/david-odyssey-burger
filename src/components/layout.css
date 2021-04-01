@@ -279,7 +279,7 @@ body {
 .readings {
   height: 100vh;
   background-image: url('../images/DAVID_ASTROLOGY.jpg');
-  background-position: center;
+  background-position: top;
   background-size: contain;
   background-repeat: no-repeat;
   /* display: flex;

@@ -225,7 +225,7 @@ body {
 }
 
 .about-main h3:hover {
-  color: white;
+  color: yellow;
   transition: .65s;
 
 }

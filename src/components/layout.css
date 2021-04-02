@@ -21,6 +21,11 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 
+
+
+
+
+
 /* importing css modules from deprecated project */
 .article-root {
    margin: 10px 30px 10px 30px;
@@ -130,11 +135,63 @@ body {
 }
 /* end module import */
 
-.article-preview h3{
+/* .article-preview h3{
   text-decoration: none;
   font-weight: normal;
+} */
+
+.slick-slide .article-preview li:hover h3, .article-preview li:focus h3{
+  text-decoration: underline;
 }
 
+
+.slick-slide .article-preview li{
+  position: relative;
+  border-radius: 0;
+  /* box-shadow: 5px 5px white; */
+}
+
+.slick-slide .article-preview li:hover{
+  /* box-shadow: 5px 5px #FEFF6F; */
+  transition: .65s;
+}
+
+.slick-slide .article-preview li h5 {
+  color: white;
+  /* position: absolute; */
+  /* margin-bottom: 0.5em; */
+  /* margin-left: 0.3em; */
+}
+
+.slick-slide .article-preview li h3 {
+  color: white;
+  margin-bottom: 2em;
+}
+
+.slick-slide .article-preview {
+  box-shadow: none;
+  margin: 1em;
+}
+
+.slick-slide:hover .article-grid{
+  box-shadow: none;
+}
+
+.slick-slide .article-grid {
+  height: 10vh;
+}
+
+.slick-slide .article-grid li {
+  box-shadow: none;
+}
+.slick-slide .article-grid h5 {
+  position: relative;
+}
+
+
+.slider-container {
+
+}
 
 .podcast {
   /* background-image: url('../images/podcast-image.jpg');
@@ -253,6 +310,35 @@ body {
   -webkit-transition: .65s;
 }
 
+.title-and-description-container {
+  /* display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2em; */
+  /* flex-direction: column;
+  justify-content: space-evenly; */
+
+}
+#writing-container {
+  
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  
+  /* flex-direction: column;
+  justify-content: space-evenly; */
+
+}
+
+#writing-container .article-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+  width: 10vw;
+  height: 10vh;
+}
+
+
+
 /* .about:hover .about-main {
   box-shadow: 10px 10px #FEFF6F;
   color: yellow;
@@ -273,6 +359,7 @@ body {
   padding: 10px 10px 0px 10px; 
   -webkit-transition: .65s;
 }
+
 
 
 /* .about-main h3 {
@@ -594,8 +681,6 @@ footer {
   font-size: 2.5rem;
   color:#C3E6FE;
    -webkit-text-stroke: 1px black;
-  /* height: 60px;
-  width: 150px; */
   line-height: 40px;
   text-align: center;
   padding: .5rem;

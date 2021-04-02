@@ -1,8 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "David Odyssey Again"
+    "name": "David Odyssey",
+    "basePath": "/studio"
   },
+  
   "api": {
     "projectId": "tnd2c0o9",
     "dataset": "production"

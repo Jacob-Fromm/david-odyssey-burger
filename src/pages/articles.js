@@ -1,13 +1,8 @@
 import React from 'react'
-import { graphql } from 'gatsby'
-import {
-    mapEdgesToNodes,
-    filterOutDocsWithoutSlugs,
-    filterOutDocsPublishedInTheFuture
-} from '../lib/helpers'
 import { Link } from 'react-scroll'
 import ArticlePreviewGrid from '../components/Article/article-preview-grid'
 import Layout from '../components/layout'
+import { graphql } from 'gatsby'
 
 export const query = graphql`
   query ArticlePageQuery {
@@ -64,9 +59,10 @@ export const query = graphql`
   }
   }
 `
+
 export default function Articles(props) {
-    const { data, errors } = props
-    console.log("article page data ", data)
+    const {data} = props
+    console.log("articles page props", data)
     return (
     <>
     <Layout>

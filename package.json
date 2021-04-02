@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@brainhubeu/react-carousel": "^1.19.26",
     "@fontsource/open-sans": "^4.2.2",
     "@fontsource/spectral": "^4.2.2",
     "gatsby": "^3.1.2",
@@ -23,6 +24,8 @@
     "react-hamburger-menu": "^1.2.1",
     "react-helmet": "^6.1.0",
     "react-scroll": "^1.8.2",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
     "styled-component": "^2.8.0",
     "styled-components": "^5.2.2"
   },

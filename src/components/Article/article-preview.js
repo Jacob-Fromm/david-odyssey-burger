@@ -12,7 +12,7 @@ function ArticlePreview(props) {
     }
     return (
         <Link style={linkStyles} to={props.url}>
-            <div className="article-preview">
+            <div className='article-preview'>
                 <img
                     src={urlFor(props.image)
                         .width(400)
@@ -20,9 +20,9 @@ function ArticlePreview(props) {
                         .url()}
                     alt={props.headline}
                 />
-            </div>
             <h3 >{props.headline}</h3>
             <h5>for {props.publication} on {props.publicationDate}</h5>
+            </div>
         </Link>
     )
 }

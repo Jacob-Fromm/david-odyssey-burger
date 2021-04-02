@@ -586,10 +586,11 @@ footer {
 }
 
 #listen-btn {
+  text-shadow: 2px 2px 4px magenta;
   position: relative;
   z-index: 1000;
   margin: 0 1.5em .5em 1.5em;
-  background: black;
+  background-image:url('../images/podcast-image.jpg');
   font-size: 2.5rem;
   color:white;
   /* height: 60px;

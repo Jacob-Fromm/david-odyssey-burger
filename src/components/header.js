@@ -15,7 +15,6 @@ function Header({ siteTitle }) {
     textDecoration: 'none',
     color: '#673AB7'
   }
-console.log(window.location.href)
   return(
     <header >
       <div

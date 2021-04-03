@@ -253,20 +253,12 @@ body {
   justify-content: space-between;
 }
 
-#about-readings {
-  display: flex;
-  flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-between;
-}
 
 
 
-.about-title{
+
+.about-title a {
   color: white;
-  align-self:center;
-  margin-left: 10vw;
-  width: 330px;
 }
 
 
@@ -277,8 +269,26 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 10px;
+  margin: 2.5em 1em 2.5em 1em;
   -webkit-transition: .65s;
+  scroll-snap-type: y;
+  scroll-behavior: smooth;
+}
+
+#about-readings {
+  margin-top: 8em;
+  margin-bottom: 5em;
+  display: flex;
+  flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.about-title{
+  color: white;
+  align-self:center;
+  margin-left: 10vw;
+  width: 330px;
 }
 
 .about:hover h1 {
@@ -288,6 +298,10 @@ body {
 
 .about h1 {
   -webkit-transition: .65s;
+}
+
+.about-title h1:hover{
+  cursor: pointer;
 }
 
 .about:hover .about-main{
@@ -335,6 +349,11 @@ body {
   grid-gap: 2em;
   width: 10vw;
   height: 10vh;
+}
+
+#podcast-container {
+  display: flex;
+  flex-direction: row;
 }
 
 
@@ -385,7 +404,13 @@ body {
   top: 65%;
   text-align: right;
   color: white;
+  line-height: .5em;
   -webkit-transition: .65s;
+}
+
+.hero-text h2 {
+  margin-bottom: .5em;
+
 }
 
 @media (max-width: 450px){
@@ -423,10 +448,22 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  
+}
+
+div.readings{
+  background-image: url("../images/DAVID_ASTROLOGY.jpg");
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-items: center;
 }
 
 
 .readings h1 {
+  position: relative;
+  margin-bottom: 3em;
   align-self: left;
   box-shadow: 10px 10px yellow;
   margin-left: 0px;
@@ -435,7 +472,7 @@ body {
 }
 
 .readings h2{
-  margin-bottom: 10em;
+  margin-bottom: 0em;
   background-color: blueviolet;
 }
 
@@ -448,25 +485,42 @@ body {
 
 #readings-info {
   text-align: left;
+  width: 75vw;
   color: white;
-  /* background-color: blueviolet; */
-  margin: 2em 1em;
+  background-color: blueviolet;
+  margin: 1em;
   box-shadow: white -5px -5px;
   padding: .5em;
+  justify-items: left;
+  
 }
 
-.readings h3 {
+#readings-info a {
+  color: white;
+}
+
+/* .readings h3 {
   
   /* margin-top: 17em; */
   /* position: fixed; */
   padding: .5em;
-  background-color: black;
-  color: white;
-}
+  /* background-color: black; */
+  /* color: white; */
+/* }  */
 
 .readings h3 a {
-  color: #BD6597;
+  color: white;
   
+}
+
+.readings-main {
+  width: 100%;
+
+}
+
+.readings-image-and-description{
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -705,10 +759,14 @@ footer {
   /* align-items: space-between; */
 }
 
-.iframe {
-  /* padding: 1.5em; */
-  /* box-shadow: 5px 5px 10px white; */
+iframe.iframe {
+  height: 100%;
+  width: 30vw;
 }
+
+/* .iframe-container {
+  width: 30vw;
+} */
 
 
 .navbar {
@@ -1154,13 +1212,14 @@ noscript {
 iframe {
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: 1em;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   height: 50vh;
+  scroll-behavior: smooth;
 }
 address {
   margin-left: 0;

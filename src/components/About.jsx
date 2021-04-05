@@ -28,7 +28,7 @@ export default function About(props){
 
                 <h3>Through Tarot and astrology, he offers an archetypal framework for the current moment. He lives, eternally, in New York City. </h3>
             <Link to="/bio" style={linkStyles}>
-              <h5 id="long-nav" className="inner-nav">LEARN MORE{'>'} </h5>
+              <h5 id="long-nav" className="inner-nav">READ DAVID'S FULL ORIGIN STORY{'>'} </h5>
             </Link>
             </div>
         </section>

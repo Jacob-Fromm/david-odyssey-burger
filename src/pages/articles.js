@@ -3,6 +3,7 @@ import { Link } from 'react-scroll'
 import ArticlePreviewGrid from '../components/Article/article-preview-grid'
 import Layout from '../components/layout'
 import { graphql } from 'gatsby'
+import NavMenu from '../components/NavMenu'
 
 export const query = graphql`
   query ArticlePageQuery {

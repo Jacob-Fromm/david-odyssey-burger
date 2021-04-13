@@ -41,7 +41,7 @@ export default function About(props){
                 </Link>
               </div>
               </div>
-              <ArticleCarousel articles={props.articles} />
+              {/* <ArticleCarousel articles={props.articles} /> */}
           </div>
         </section>
         <section className="about" id="about-podcast">
@@ -62,7 +62,7 @@ export default function About(props){
                   </Link>
               </div>
             </div>
-            <iframe className="iframe" title="Podcast-Player" frameborder='0' src="https://playlist.megaphone.fm?p=ADL3471774599"></iframe>
+            {/* <iframe className="iframe" title="Podcast-Player" frameborder='0' src="https://playlist.megaphone.fm?p=ADL3471774599"></iframe> */}
           </div>
         </section>
         <section className="about" id="about-readings">

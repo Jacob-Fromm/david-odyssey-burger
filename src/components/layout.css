@@ -380,7 +380,7 @@ body {
 .hero-text {
   margin-top: 2em;
   height: 300px;
-  margin-right: 2.5em;
+  margin-right: 4em;
   position: relative;
   top: 65%;
   text-align: left;
@@ -405,6 +405,16 @@ body {
     text-align: right;
     line-height: 1em;
 
+  }
+  .about {
+     right: 30%;
+    width: 20vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 40%;
+    text-align: right;
+    line-height: 1em;
   }
 }
 
@@ -656,7 +666,7 @@ footer {
 .inner-nav {
   color: white;
   min-width: 250px;
-  width: 30vw;
+  width: 50vw;
   /* border-radius: 10em;
   box-shadow: 5px 5px white; */
   -webkit-transition: .65s;

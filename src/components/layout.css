@@ -241,6 +241,7 @@ body {
   
 }
 
+
 /* #about-section:hover {
   color: black;
   justify-content: space-between;
@@ -275,14 +276,14 @@ body {
   scroll-behavior: smooth;
 }
 
-#about-readings {
+/* #about-readings {
   margin-top: 8em;
   margin-bottom: 5em;
   display: flex;
   flex-direction: row;
    flex-wrap: wrap;
    justify-content: space-between;
-}
+} */
 
 .about-title{
   color: #fdc1d3;
@@ -298,6 +299,10 @@ body {
 
 .about h1 {
   -webkit-transition: .65s;
+}
+
+.about-title a {
+  margin-left: 1vw;
 }
 
 .about-title h1:hover{
@@ -332,28 +337,11 @@ body {
   justify-content: space-evenly; */
 
 }
-#writing-container {
-  
-  display: flex;
-  flex-direction: row;
-  /* flex-wrap: wrap; */
-  
-  /* flex-direction: column;
-  justify-content: space-evenly; */
 
-}
-
-#writing-container .article-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2em;
-  width: 10vw;
-  height: 10vh;
-}
 
 #podcast-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 
@@ -417,12 +405,6 @@ body {
     line-height: 1em;
 
   }
-}
-
-.hero-text:hover {
-  color: purple;
-  transition: .65s;
-  
 }
 
 .readings {

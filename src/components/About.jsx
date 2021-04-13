@@ -13,7 +13,7 @@ export default function About(props){
 
     return(
         <>
-        <section className="about" id="about-section">
+        <section className="about" >
             <div className="about-title">
             <Link className="about-title" to="/articles" style={{ textDecoration: 'none' }}>
               <h1>ABOUT</h1>
@@ -26,9 +26,7 @@ export default function About(props){
             </Link>
             </div>
         </section>
-        <section className="about" id="about-writing">
-          <div id="writing-container" className="about-section-container">
-            <div className="title-and-description-container">
+        <section className="about">
               <div className="about-title">
                 <Link className="about-title" to="/articles" style={{ textDecoration: 'none' }}>
                   <h1>WRITING</h1>
@@ -39,14 +37,11 @@ export default function About(props){
                 <Link to="/articles" style={linkStyles}>
                   <h5 id="long-nav" className="inner-nav">EXPLORE DAVID'S WRITING{'>'} </h5>
                 </Link>
-              </div>
-              </div>
               {/* <ArticleCarousel articles={props.articles} /> */}
           </div>
         </section>
         <section className="about" id="about-podcast">
-          <div id="podcast-container" className="about-section-container">
-            <div className="title-and-description-container">
+      
               <div className="about-title">
                 <Link className="about-title" to="/podcast" style={{textDecoration: 'none'}}>
                   <h1>PODCAST<h2><a href="https://podcasts.apple.com/us/podcast/the-luminaries-with-david-odyssey/id1464759824"
@@ -60,8 +55,7 @@ export default function About(props){
                     
                 <h5 className="inner-nav">LISTEN TO ALL EPISODES HERE{'>'} </h5>
                   </Link>
-              </div>
-            </div>
+          
             {/* <iframe className="iframe" title="Podcast-Player" frameborder='0' src="https://playlist.megaphone.fm?p=ADL3471774599"></iframe> */}
           </div>
         </section>

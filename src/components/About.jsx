@@ -44,13 +44,11 @@ export default function About(props){
       
               <div className="about-title">
                 <Link className="about-title" to="/podcast" style={{textDecoration: 'none'}}>
-                  <h1>PODCAST<h2><a href="https://podcasts.apple.com/us/podcast/the-luminaries-with-david-odyssey/id1464759824"
-                  text-decoration="none"
-                  >subscribe here</a></h2></h1>
+                  <h1>PODCAST</h1>
               </Link>
               </div>
               <div className="about-main">
-                <h3><em>The Luminaries with David Odyssey</em> features the new gods of the comedy, drag, cabaret and literary scenes, sharing their life stories and celebrating the astrology of their greatest influences. New episodes available weekly on Apple Podcasts, Spotify, and wherever podcasts are sold.</h3>
+                <h3><em>The Luminaries with David Odyssey</em> features the new gods of the comedy, drag, cabaret and literary scenes, sharing their life stories and celebrating the astrology of their greatest influences. New episodes available weekly on <a href="https://podcasts.apple.com/us/podcast/the-luminaries-with-david-odyssey/id1464759824">Apple Podcasts</a>, <a href="https://open.spotify.com/show/4fNGhRkv7OrZnXgLI3BYwm?si=FWgSGviuSnCzk5Vu7Pp5sg&nd=1">Spotify</a>, and wherever podcasts are sold.</h3>
                   <Link to="/podcast" style={linkStyles}>
                     
                 <h5 className="inner-nav">LISTEN TO ALL EPISODES HERE{'>'} </h5>

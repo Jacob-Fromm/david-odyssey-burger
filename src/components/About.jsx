@@ -53,8 +53,6 @@ export default function About(props){
                     
                 <h5 className="inner-nav">LISTEN TO ALL EPISODES HERE{'>'} </h5>
                   </Link>
-          
-            {/* <iframe className="iframe" title="Podcast-Player" frameborder='0' src="https://playlist.megaphone.fm?p=ADL3471774599"></iframe> */}
           </div>
         </section>
         <section className="about" id="about-readings">

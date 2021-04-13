@@ -27,10 +27,8 @@ export default function Podcast() {
                 }}>Subscribe - Apple</a><a className="link-btn" href="https://open.spotify.com/show/4fNGhRkv7OrZnXgLI3BYwm?si=FWgSGviuSnCzk5Vu7Pp5sg">Subscribe - Spotify</a>
             </div>
         <div className="podcast">
-                <h4>Embark on a cosmic voyage through the worlds of astrology, tarot, film, TV, comic books and far beyond, as host David Odyssey and a pantheon of guests unleash the waters of queer consciousness.</h4>
-            <div id="iframe-container">
-                <iframe className="iframe" title="Podcast-Player" frameborder="10" src="https://playlist.megaphone.fm?p=ADL3471774599" width="100%" height="482" ></iframe>
-            </div>
+            <h4>Embark on a cosmic voyage through the worlds of astrology, tarot, film, TV, comic books and far beyond, as host David Odyssey and a pantheon of guests unleash the waters of queer consciousness.</h4>
+            <iframe title="The Luminaries Podcast by David Odyssey" src="https://playlist.megaphone.fm?p=ADL3471774599" width="100%" height="482" frameborder="0"></iframe>
         </div>
             
            

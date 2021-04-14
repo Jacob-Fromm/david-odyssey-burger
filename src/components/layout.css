@@ -223,7 +223,7 @@ body {
 .bio-container {
   /* display: flex;
   flex-direction: row; */
-  width: 80%;
+  width: 90%;
   height: 80%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -243,7 +243,8 @@ body {
 }
 
 .bio-text h2 {
-  font-size: 2em;
+  font-size: 1.5em;
+  font-weight: bold;
   box-shadow: 5px 5px #fdc1d3;
   width: 150px;
 }
@@ -253,6 +254,15 @@ body {
   color: white;
   font-weight: normal;
   font-family: Helvetica, sans-serif;
+}
+
+#podcast-text p a{
+  color: white;
+}
+
+#podcast-text h2 {
+  font-size: 1.5em;
+  font-weight:bold;
 }
 
 #about-section {

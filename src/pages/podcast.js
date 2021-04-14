@@ -24,6 +24,10 @@ export default function Podcast() {
                     <h2 id="podcast-title" style={{width:'250px'}}>PODCAST</h2>
                     <p><em>The Luminaries with David Odyssey</em> features the new gods of the comedy, drag, cabaret and literary scenes, sharing their life stories and celebrating the astrology of their greatest influences. New episodes available weekly on <a href="https://podcasts.apple.com/us/podcast/the-luminaries-with-david-odyssey/id1464759824">Apple Podcasts</a>, <a href="https://open.spotify.com/show/4fNGhRkv7OrZnXgLI3BYwm?si=FWgSGviuSnCzk5Vu7Pp5sg&nd=1">Spotify</a>, and wherever podcasts are sold.</p>
                     <iframe title="The Luminaries Podcast by David Odyssey" src="https://playlist.megaphone.fm?p=ADL3471774599" width="100%" height="482" frameborder="no" scrolling="yes"></iframe>
+                    <div className="podcast-btn-container">
+                        <h3><a href="https://podcasts.apple.com/us/podcast/the-luminaries-with-david-odyssey/id1464759824">Subscribe on Apple</a></h3>
+                        <h3><a href="https://open.spotify.com/show/4fNGhRkv7OrZnXgLI3BYwm?si=FWgSGviuSnCzk5Vu7Pp5sg&nd=1">Subscribe on Spotify</a></h3>
+                    </div>
                 </div>
             </div>
         </Layout>
@@ -48,7 +52,7 @@ export default function Podcast() {
         //         }}>Subscribe - Apple</a><a className="link-btn" href="https://open.spotify.com/show/4fNGhRkv7OrZnXgLI3BYwm?si=FWgSGviuSnCzk5Vu7Pp5sg">Subscribe - Spotify</a>
         //     </div>
         // <div className="podcast">
-        //     <h4>Embark on a cosmic voyage through the worlds of astrology, tarot, film, TV, comic books and far beyond, as host David Odyssey and a pantheon of guests unleash the waters of queer consciousness.</h4>
+        //     <h3>Embark on a cosmic voyage through the worlds of astrology, tarot, film, TV, comic books and far beyond, as host David Odyssey and a pantheon of guests unleash the waters of queer consciousness.</h3>
         //     <iframe title="The Luminaries Podcast by David Odyssey" src="https://playlist.megaphone.fm?p=ADL3471774599" width="100%" height="482" frameborder="0"></iframe>
         // </div>
             

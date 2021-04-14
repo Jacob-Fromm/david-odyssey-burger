@@ -256,13 +256,37 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
-#podcast-text p a{
+#podcast-text p a {
   color: white;
 }
 
 #podcast-text h2 {
   font-size: 1.5em;
-  font-weight:bold;
+  font-weight: bold;
+}
+
+.podcast-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.podcast-btn-container h3 {
+  font-size: 1.25em;
+  margin-right: 1em;
+  padding-bottom: 0.5em;
+  padding-right: 0.5em;
+  box-shadow: 5px 5px pink;
+  -webkit-transition: 0.65s;
+}
+
+.podcast-btn-container h3:hover {
+  transform: scale(1.05);
+}
+
+.podcast-btn-container h3 a {
+  text-decoration: none;
+  color: white
 }
 
 #about-section {

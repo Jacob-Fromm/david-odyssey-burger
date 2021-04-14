@@ -6,7 +6,6 @@ import SEO from "../components/seo"
 import Hero from "../components/Hero"
 import About from "../components/About"
 import {graphql} from 'gatsby'
-import NavMenu from "../components/NavMenu"
 
 export const query = graphql`
   query IndexPageQuery {

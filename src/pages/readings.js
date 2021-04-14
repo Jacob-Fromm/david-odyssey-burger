@@ -19,7 +19,7 @@ export default function Readings(){
                 // layout="contain"
                 placeholder="blurred"
             />
-            <h6>Photo Illustration courtesy Greg Kozatek</h6>
+            <h6><a href="http://www.gregkozatek.com">Photo Illustration courtesy Greg Kozatek</a></h6>
             {/* <InlineWidget url="https://calendly.com/adavidodyssey" /> */}
             </div>
                 <div id="readings-text" className="bio-text">

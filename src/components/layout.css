@@ -224,6 +224,11 @@ div.testimonials {
   font-family: Helvetica, sans-serif;
 }
 
+.bio-image h6 a {
+  color: white;
+  text-decoration: none
+}
+
 .bio-image {
   margin: 0 auto;
 }
@@ -235,6 +240,37 @@ div.testimonials {
 #podcast-text h2 {
   font-size: 1.5em;
   font-weight: bold;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.socials a {
+  color: white;
+  text-decoration: none;
+}
+
+.socials #instagram {
+  display: flex;
+  padding-right: 3em;
+  padding-bottom: 1em;
+}
+
+.socials #instagram h4 {
+ padding-left: .5em;
+ align-self: flex-end;
+}
+
+.socials #twitter {
+  display: flex;
+}
+
+.socials #twitter h4 {
+ padding-left: .5em;
+ align-self: flex-end;
 }
 
 .podcast-btn-container {

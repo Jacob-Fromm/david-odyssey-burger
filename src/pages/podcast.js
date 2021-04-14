@@ -18,7 +18,7 @@ export default function Podcast() {
                 // layout="cover"
                 placeholder="blurred"
             />
-            <h6>Illustration by Colin Verdi</h6>
+            <h6>Illustration courtesy Colin Verdi</h6>
             </div>
                 <div id="podcast-text" className="bio-text">
                     <h2 id="podcast-title" style={{width:'250px'}}>PODCAST</h2>

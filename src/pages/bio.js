@@ -17,7 +17,7 @@ export default function bio() {
                 // layout="cover"
                 placeholder="blurred"
             />
-            <h6>Photo by Greg Kramer</h6>
+            <h6>Photograph courtesy Greg Kramer</h6>
             </div>
                 <div className="bio-text">
                     <h2>ABOUT</h2>

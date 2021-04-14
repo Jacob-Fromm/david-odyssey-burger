@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import { StaticImage } from "gatsby-plugin-image"
 import AstrologyImage from '../images/DAVID_ASTROLOGY.jpg'
 import TestimonialCarousel from '../components/TestimonialCarousel'
+import { InlineWidget } from "react-calendly";
 
 export default function Readings(){
     return(
@@ -18,7 +19,8 @@ export default function Readings(){
                 // layout="contain"
                 placeholder="blurred"
             />
-            <h6>Photo Illustration by Greg Kozatek</h6>
+            <h6>Photo Illustration courtesy Greg Kozatek</h6>
+            {/* <InlineWidget url="https://calendly.com/adavidodyssey" /> */}
             </div>
                 <div id="readings-text" className="bio-text">
                     <h2 id="readings-title">READINGS</h2>

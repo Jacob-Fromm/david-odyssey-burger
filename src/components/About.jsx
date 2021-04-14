@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import ArticlePreviewGrid from './Article/article-preview-grid'
-import ArticleCarousel from './ArticleCarousel'
+import ArticleCarousel from './TestimonialCarousel'
 
 const linkStyles = {
   color: "black",

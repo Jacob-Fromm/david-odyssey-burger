@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import { StaticImage } from "gatsby-plugin-image"
 import AstrologyImage from '../images/DAVID_ASTROLOGY.jpg'
+import TestimonialCarousel from '../components/TestimonialCarousel'
 
 export default function Readings(){
     return(
@@ -14,7 +15,7 @@ export default function Readings(){
                 alt="Photo Illustration of David Odyssey by Greg Kozatek"
                 width={600}
                 height={643.5}
-                // layout="cover"
+                // layout="contain"
                 placeholder="blurred"
             />
             <h6>Photo Illustration by Greg Kozatek</h6>
@@ -24,6 +25,10 @@ export default function Readings(){
                     <p>David Odyssey offers intuitive readings through astrology and the Tarot. All readings are new-user friendly, and conducted over Zoom. Astrology readings offer a zoomed-out guide to the symbols and meanings of your birth chart, leading up to the planetary movements of the current moment. Tarot readings invoke archetypal imagery to spark dialogue and insight on any immediate questions, no matter how broad or specific.</p>
 
                     <p>Options, rates and reading packages abound; sliding scale is available.<br></br>Contact <a href="mailto: adavidodyssey@gmail.com">adavidodyssey@gmail.com</a> to book a reading.</p>
+                    <div className="testimonials">
+                        <h3>Testimonials</h3>
+                        <TestimonialCarousel />
+                    </div>
                 </div>
             </div>
         </Layout>

@@ -15,7 +15,7 @@ export default function About(props){
         <>
         <section className="about" >
             <div className="about-title">
-            <Link className="about-title" to="/articles" style={{ textDecoration: 'none' }}>
+            <Link className="about-title" to="/bio" style={{ textDecoration: 'none' }}>
               <h1>ABOUT</h1>
             </Link>
             </div>

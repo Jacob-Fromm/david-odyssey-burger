@@ -396,6 +396,10 @@ body {
   -webkit-transition: 0.65s;
 }
 
+.about-main .inner-nav {
+  margin-right: 0.5em;
+}
+
 /* .about-main h3 {
   -webkit-transition: .65s;
 } */
@@ -428,7 +432,7 @@ body {
   margin-bottom: 0.5em;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 250px) {
   .hero-text {
     right: 30%;
     width: 20vw;
@@ -440,6 +444,7 @@ body {
     line-height: 1em;
   }
   .about {
+    background-color: red;
     right: 30%;
     width: 20vw;
     display: flex;
@@ -449,7 +454,19 @@ body {
     text-align: right;
     line-height: 1em;
   }
+  .inner-nav {
+    padding-right: 2em;
+  }
 }
+
+#readings-title {
+  width: 300px;
+}
+
+#readings-text p a {
+  color: #fdc1d3;
+}
+
 
 .readings {
   height: 100vh;
@@ -691,6 +708,7 @@ footer {
   color: white;
   min-width: 250px;
   width: 50vw;
+  padding-right: 2em;
   /* border-radius: 10em;
   box-shadow: 5px 5px white; */
   -webkit-transition: 0.65s;

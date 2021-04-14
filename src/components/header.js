@@ -34,6 +34,9 @@ function Header({ siteTitle }) {
         </button>
         <nav class={menuOpen ? "menu menu-active" : "menu"}>
           <ul>
+            <Link to='/bio' style={linkStyles}>
+              <li>About</li>
+            </Link>
             <Link to='/articles' style={linkStyles}>
               <li>Articles</li>
             </Link>

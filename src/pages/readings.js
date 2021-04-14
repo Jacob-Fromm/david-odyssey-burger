@@ -29,7 +29,7 @@ export default function Readings(){
                     <p>Options, rates and reading packages abound; sliding scale is available.<br></br>Contact <a href="mailto: adavidodyssey@gmail.com">adavidodyssey@gmail.com</a> to book a reading.</p>
                     <div className="testimonials">
                         <h3>Testimonials</h3>
-                        <TestimonialCarousel />
+                        <TestimonialCarousel/>
                     </div>
                 </div>
             </div>

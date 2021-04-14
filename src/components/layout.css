@@ -36,7 +36,6 @@ body {
   transition: 0.65s;
 }
 
-
 .article-grid li:hover h3,
 .article-grid li:focus h3 {
   text-decoration: underline;
@@ -136,56 +135,11 @@ body {
   font-weight: normal;
 } */
 
-.slick-slide .article-preview li:hover h3,
-.article-preview li:focus h3 {
-  text-decoration: underline;
-}
-
-.slick-slide .article-preview li {
-  position: relative;
-  border-radius: 0;
-  /* box-shadow: 5px 5px white; */
-}
-
-.slick-slide .article-preview li:hover {
-  /* box-shadow: 5px 5px #FEFF6F; */
-  transition: 0.65s;
-}
-
-.slick-slide .article-preview li h5 {
-  color: white;
-  /* position: absolute; */
-  /* margin-bottom: 0.5em; */
-  /* margin-left: 0.3em; */
-}
-
-.slick-slide .article-preview li h3 {
-  color: white;
-  margin-bottom: 2em;
-}
-
-.slick-slide .article-preview {
-  box-shadow: none;
-  margin: 1em;
-}
-
-.slick-slide:hover .article-grid {
-  box-shadow: none;
-}
-
-.slick-slide .article-grid {
-  height: 10vh;
-}
-
-.slick-slide .article-grid li {
-  box-shadow: none;
-}
-.slick-slide .article-grid h5 {
-  position: relative;
-}
 
 .slider-container {
+  width: 50vw;
 }
+
 
 .podcast {
   /* background-image: url('../images/podcast-image.jpg');
@@ -222,8 +176,8 @@ body {
 }
 
 #readings-image-main {
- object-fit: cover;
- min-width: 300px;
+  object-fit: cover;
+  min-width: 300px;
 }
 
 .bio-container {
@@ -287,7 +241,7 @@ div.testimonials {
 
 .podcast-btn-container h3 {
   font-size: 1.25em;
-  margin-right: .5em;
+  margin-right: 0.5em;
   padding-bottom: 0.5em;
   padding-right: 0.5em;
   box-shadow: 5px 5px pink;
@@ -477,7 +431,6 @@ div.testimonials {
 #readings-text p a {
   color: #fdc1d3;
 }
-
 
 .readings {
   height: 100vh;

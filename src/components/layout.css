@@ -223,23 +223,26 @@ body {
 .bio-container {
   /* display: flex;
   flex-direction: row; */
-  width: 90%;
-  height: 80%;
+  /* width: 90%; */
+  height: 50%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.5fr 0.75fr;
   grid-gap: 2em;
   margin: 1.5em;
+  justify-content: left;
 }
 
 @media (max-width: 458px) {
   .bio-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 }
 
 .bio-text {
   color: white;
+  justify-content: left;
 }
 
 .bio-text h2 {
@@ -273,7 +276,7 @@ body {
 
 .podcast-btn-container h3 {
   font-size: 1.25em;
-  margin-right: 1em;
+  margin-right: .5em;
   padding-bottom: 0.5em;
   padding-right: 0.5em;
   box-shadow: 5px 5px pink;
@@ -286,7 +289,7 @@ body {
 
 .podcast-btn-container h3 a {
   text-decoration: none;
-  color: white
+  color: white;
 }
 
 #about-section {

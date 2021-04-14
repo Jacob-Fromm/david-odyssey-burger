@@ -225,8 +225,14 @@ div.testimonials {
 }
 
 .bio-image h6 a {
+  color: #fdc1d3;
+  text-decoration: none;
+   -webkit-transition: 0.65s;
+}
+
+.bio-image h6 a:hover {
   color: white;
-  text-decoration: none
+  transition: 0.65s;
 }
 
 .bio-image {

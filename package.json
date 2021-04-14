@@ -8,6 +8,10 @@
     "@brainhubeu/react-carousel": "^1.19.26",
     "@fontsource/open-sans": "^4.2.2",
     "@fontsource/spectral": "^4.2.2",
+    "@mdi/font": "^5.9.55",
+    "@mdi/js": "^5.9.55",
+    "@mdi/react": "^1.5.0",
+    "@mdi/svg": "^5.9.55",
     "gatsby": "^3.1.2",
     "gatsby-plugin-gatsby-cloud": "^2.1.0",
     "gatsby-plugin-image": "^1.1.2",
@@ -26,6 +30,7 @@
     "react-scroll": "^1.8.2",
     "react-slick": "^0.28.1",
     "slick-carousel": "^1.8.1",
+    "social-media-icons-react": "^1.1.2",
     "styled-component": "^2.8.0",
     "styled-components": "^5.2.2"
   },

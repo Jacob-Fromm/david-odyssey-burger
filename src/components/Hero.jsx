@@ -6,7 +6,9 @@ const Hero = () => {
     return (
         <section id="hero-section">
             <div className="hero" style={{
-                width: '100vw'
+                width: '100vw',
+                marginTop: '-80px',
+                minWidth: '400px',
             }}>
             <Link to="about" smooth duration={1000}>
                 <div className="hero-text" >

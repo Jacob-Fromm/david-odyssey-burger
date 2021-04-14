@@ -401,7 +401,7 @@ div.testimonials {
   margin-bottom: 0.5em;
 }
 
-@media (max-width: 250px) {
+/* @media (max-width: 250px) {
   .hero-text {
     right: 30%;
     width: 20vw;
@@ -413,7 +413,6 @@ div.testimonials {
     line-height: 1em;
   }
   .about {
-    background-color: red;
     right: 30%;
     width: 20vw;
     display: flex;
@@ -426,7 +425,7 @@ div.testimonials {
   .inner-nav {
     padding-right: 2em;
   }
-}
+} */
 
 #readings-title {
   width: 300px;
@@ -543,12 +542,13 @@ padding: 0.5em;
 /* } */
 
 header {
-  background: #bd6597;
+  background:none;
+  /* position: absolute; */
   /* margin-bottom: 1.45rem; */
 }
 
 header .burger-btn {
-  background: #bd6597;
+  background: none;
   padding: 0;
   width: 40px;
   height: 40px;
@@ -746,9 +746,9 @@ footer {
   /* align-items: space-between; */
 }
 
-iframe play-btn {
+/* iframe play-btn {
   background-color: red;
-}
+} */
 
 .navbar {
   align-self: right;

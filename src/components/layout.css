@@ -135,11 +135,9 @@ body {
   font-weight: normal;
 } */
 
-
 .slider-container {
   width: 50vw;
 }
-
 
 .podcast {
   /* background-image: url('../images/podcast-image.jpg');
@@ -192,12 +190,33 @@ body {
   justify-content: left;
 }
 
+button.slick-arrow.slick-next:before {
+  color: #fdc1d3;
+}
+button.slick-arrow.slick-prev:before {
+  color: #fdc1d3;
+}
+
+button.slick-prev {
+  color: red;
+}
+
 @media (max-width: 768px) {
   .bio-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+  div.slick-list {
+    width: 80vw;
+  }
+  div.slider-container {
+    width: 80vw;
+  }
+}
+
+.testimonials button {
+  top: 25%
 }
 
 .bio-text {
@@ -215,6 +234,7 @@ body {
 div.testimonials {
   padding-top: 1em;
   border-top: #fdc1d3 solid;
+
 }
 
 .bio-image h6 {
@@ -227,7 +247,7 @@ div.testimonials {
 .bio-image h6 a {
   color: #fdc1d3;
   text-decoration: none;
-   -webkit-transition: 0.65s;
+  -webkit-transition: 0.65s;
 }
 
 .bio-image h6 a:hover {
@@ -243,10 +263,19 @@ div.testimonials {
   color: white;
 }
 
+#podcast-text p {
+  margin-bottom: 0;
+}
+
 #podcast-text h2 {
   font-size: 1.5em;
   font-weight: bold;
 }
+
+/* #podcast-text {
+  position: relative;
+  justify-self: left;
+} */
 
 .socials {
   display: flex;
@@ -266,8 +295,8 @@ div.testimonials {
 }
 
 .socials #instagram h4 {
- padding-left: .5em;
- align-self: flex-end;
+  padding-left: 0.5em;
+  align-self: flex-end;
 }
 
 .socials #twitter {
@@ -275,18 +304,20 @@ div.testimonials {
 }
 
 .socials #twitter h4 {
- padding-left: .5em;
- align-self: flex-end;
+  padding-left: 0.5em;
+  align-self: flex-end;
 }
 
 .podcast-btn-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: left;
+  flex-wrap: wrap;
 }
 
 .podcast-btn-container h3 {
   font-size: 1.25em;
+  min-width: 200px;
   margin-right: 0.5em;
   padding-bottom: 0.5em;
   padding-right: 0.5em;
@@ -301,6 +332,10 @@ div.testimonials {
 .podcast-btn-container h3 a {
   text-decoration: none;
   color: white;
+}
+
+#apple-btn {
+  margin-right: 0.75em;
 }
 
 #about-section {
@@ -420,7 +455,7 @@ div.testimonials {
   justify-content: flex-end;
   text-align: right;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   background-image: url("../images/DAVID_SPLASH_PAGE_2.jpg");
   background-position: center;
   background-size: cover;
@@ -471,6 +506,7 @@ div.testimonials {
 
 #readings-title {
   width: 300px;
+  padding-bottom: 0.25em;
 }
 
 #readings-text p a {
@@ -584,7 +620,7 @@ padding: 0.5em;
 /* } */
 
 header {
-  background:none;
+  background: none;
   /* position: absolute; */
   /* margin-bottom: 1.45rem; */
 }

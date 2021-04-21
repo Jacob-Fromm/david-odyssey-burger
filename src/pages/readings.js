@@ -19,14 +19,14 @@ export default function Readings(){
                 // layout="contain"
                 placeholder="blurred"
             />
-            <h6><a href="http://www.gregkozatek.com">Photo Illustration courtesy Greg Kozatek</a></h6>
+            <h6><a href="http://www.gregkozatek.com">Photo Illustration by Greg Kozatek</a></h6>
             {/* <InlineWidget url="https://calendly.com/adavidodyssey" /> */}
             </div>
                 <div id="readings-text" className="bio-text">
                     <h2 id="readings-title">READINGS</h2>
-                    <p>David Odyssey offers intuitive readings through astrology and the Tarot. All readings are new-user friendly, and conducted over Zoom. Astrology readings offer a zoomed-out guide to the symbols and meanings of your birth chart, leading up to the planetary movements of the current moment. Tarot readings invoke archetypal imagery to spark dialogue and insight on any immediate questions, no matter how broad or specific.</p>
+                    <p>David Odyssey offers archetypal, intuitive readings through astrology and the Tarot. Astrology readings offer a zoomed-out guide to the symbols and meanings of your birth chart, leading up to the planetary movements of the current moment. The Tarot invokes archetypal imagery to spark dialogue and insight on any immediate questions, no matter how broad or specific.</p>
 
-                    <p>Options, rates and reading packages abound; sliding scale is available.<br></br>Contact <a href="mailto: adavidodyssey@gmail.com">adavidodyssey@gmail.com</a> to book a reading.</p>
+                    <p>All readings are new-user friendly, and conducted over Zoom, usually lasting up to an hour. Bookings are available below. For questions, sliding scale rates or to buy a gift reading, contact <a href="mailto: adavidodyssey@gmail.com">adavidodyssey@gmail.com</a> to book a reading.</p>
                     <div className="testimonials">
                         <h3>Testimonials</h3>
                         <TestimonialCarousel/>

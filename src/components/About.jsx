@@ -22,7 +22,7 @@ export default function About(props){
             <div className="about-main">
                 <h3>You have entered the digital domain of the writer, editor, performer, diviner and cosmic being David Odyssey. Through here, you can read his published work, book an astrology/tarot reading, and listen to new podcast episodes.</h3>
             <Link to="/bio" style={linkStyles}>
-              <h3 id="long-nav" className="inner-nav">READ DAVID'S FULL ORIGIN STORY{'>'} </h3>
+              <h3 id="long-nav" className="inner-nav">READ THE ORIGIN STORY{'>'} </h3>
             </Link>
             </div>
         </section>

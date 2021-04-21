@@ -19,7 +19,9 @@ export default class TestimonialCarousel extends Component {
             speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: true,
+            // autoplay: true,
+            draggable: true,
+            swipeToSlide: true,
             autoplaySpeed: 10000
         }
 
@@ -33,9 +35,7 @@ export default class TestimonialCarousel extends Component {
     
     ]
         return(
-            <div className="slider-container" style={{
-            
-            }}>
+            <div className="slider-container">
                 <Slider ref={slider => (this.slider = slider)} {...settings} >
                     {testimonials.map(testimonial => (
                         <div className="testimonial-text">

@@ -15,8 +15,8 @@ export default function Readings(){
                 id="readings-image-main"
                 src='../images/DAVID_ASTROLOGY.jpg'
                 alt="Photo Illustration of David Odyssey by Greg Kozatek"
-                width={600}
-                height={643.5}
+                width={1200}
+                height={1287.5} 
                 // layout="contain"
                 placeholder="blurred"
             />

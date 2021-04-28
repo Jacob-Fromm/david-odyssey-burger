@@ -175,7 +175,6 @@ body {
 
 #readings-image-main {
   object-fit: cover;
-  min-width: 300px;
 }
 
 .bio-container {
@@ -216,7 +215,7 @@ button.slick-prev {
 }
 
 .testimonials button {
-  top: 25%
+  top: 25%;
 }
 
 .bio-text {
@@ -234,7 +233,6 @@ button.slick-prev {
 div.testimonials {
   padding-top: 1em;
   border-top: #fdc1d3 solid;
-
 }
 
 .bio-image h6 {
@@ -319,9 +317,8 @@ div.testimonials {
   font-size: 1.25em;
   min-width: 200px;
   margin-right: 0.5em;
-  padding-bottom: 0.5em;
-  padding-right: 0.5em;
-  box-shadow: 5px 5px pink;
+ padding: 0.5em;
+  border-style: solid;
   -webkit-transition: 0.65s;
 }
 
@@ -433,12 +430,12 @@ div.testimonials {
 
 .about:hover h3 a {
   color: white;
-  transition: .65s;
+  transition: 0.65s;
 }
 
 .about h3 a {
   color: white;
-  -webkit-transition: .65s;
+  -webkit-transition: 0.65s;
 }
 
 /* .about:hover .about-main {
@@ -627,7 +624,7 @@ padding: 0.5em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items:flex-start;
+  align-items: flex-start;
   margin-bottom: 3em;
 }
 
@@ -648,12 +645,11 @@ padding: 0.5em;
   padding: 1em;
   text-align: center;
   width: 20vw;
-
 }
 
 .calendly-btn-and-text {
   line-height: 1em;
-   -webkit-transition: 0.65s;
+  -webkit-transition: 0.65s;
 }
 
 .calendly-btn-and-text:hover {
@@ -661,9 +657,7 @@ padding: 0.5em;
   transition: 0.65s;
 }
 
-.calendly-title-and-text
-
-.calendly-container {
+.calendly-title-and-text .calendly-container {
   margin-bottom: 1.5em;
 }
 
@@ -673,19 +667,19 @@ padding: 0.5em;
   /* margin-left: auto;
   margin-right: 2em; */
   padding-right: 1.5em;
-  width: 100%
+  width: 100%;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 768px) {
   .calendly-btn-and-text {
-    justify-content:space-around
+    justify-content: space-around;
   }
   .calendly-btn-and-text a {
     width: 30vw;
   }
   .calendly-title-and-text {
     width: 50%;
-    padding-right: .5em;
+    padding-right: 0.5em;
   }
 }
 

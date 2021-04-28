@@ -475,7 +475,7 @@ div.testimonials {
   justify-content: flex-end;
   text-align: right;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   background-image: url("../images/DAVID_SPLASH_PAGE_2.jpg");
   background-position: center;
   background-size: cover;
@@ -485,9 +485,9 @@ div.testimonials {
 .hero-text {
   margin-top: 2em;
   height: 300px;
-  margin-right: 4em;
+  margin-right: 2em;
   position: relative;
-  top: 65%;
+  top: 63%;
   text-align: left;
   color: white;
   line-height: 0.5em;

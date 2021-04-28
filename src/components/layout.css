@@ -416,6 +416,7 @@ div.testimonials {
 
 .about h1 {
   -webkit-transition: 0.65s;
+  letter-spacing: .04em;
 }
 
 .about-title a {

@@ -28,7 +28,15 @@ body {
 
 .article-root h1 {
   color: white;
-  text-decoration: underline;
+  line-height: 1.25em;
+  /* text-decoration: underline;
+  padding-bottom: 0.25em; */
+}
+
+.article-root h1 span {
+  padding-bottom: 0.02em;
+  border-bottom: 0.1em solid white;
+
 }
 
 .article-root h1:hover {
@@ -125,9 +133,6 @@ body {
   }
 }
 
-.article-root h1 {
-  text-decoration: underline white;
-}
 /* end module import */
 
 /* .article-preview h3{
@@ -518,6 +523,14 @@ div.testimonials {
 .hero-text h2 {
   margin-bottom: 0.5em;
 }
+
+@media (max-width: 768px) {
+  .hero-text {
+    top: 59%;
+  }
+}
+
+
 
 /* @media (max-width: 250px) {
   .hero-text {

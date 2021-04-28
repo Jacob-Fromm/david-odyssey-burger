@@ -39,7 +39,7 @@ export default class TestimonialCarousel extends Component {
                 <Slider ref={slider => (this.slider = slider)} {...settings} >
                     {testimonials.map(testimonial => (
                         <div className="testimonial-text">
-                                <p>{testimonial.text}</p>
+                                <p><em>"{testimonial.text}"</em></p>
                                 <p>— {testimonial.speaker}</p>
                         </div>
                     ))}

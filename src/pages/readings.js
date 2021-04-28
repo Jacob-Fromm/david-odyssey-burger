@@ -27,7 +27,7 @@ export default function Readings(){
                     <h2 style={{width: '50vw'}}id="readings-title">READINGS</h2>
                     <p>David Odyssey offers archetypal, intuitive readings through astrology and the Tarot. Astrology readings offer a zoomed-out guide to the symbols and meanings of your birth chart, leading up to the planetary movements of the current moment. The Tarot invokes archetypal imagery to spark dialogue and insight on any immediate questions, no matter how broad or specific.</p>
 
-                    <p>All readings are new-user friendly, and conducted over Zoom, usually lasting up to an hour. Bookings are available below. For questions, sliding scale rates or to buy a gift reading, contact <a href="mailto: adavidodyssey@gmail.com">adavidodyssey@gmail.com</a> to book a reading.</p>
+                    <p>All readings are new-user friendly, and conducted over Zoom, usually lasting up to an hour. You can book a reading below. For questions, sliding scale rates or to buy a gift reading, contact <a href="mailto: adavidodyssey@gmail.com">adavidodyssey@gmail.com</a> to book a reading.</p>
                     <CalendlyPopup />
                     <div className="testimonials">
                         <h3>Testimonials</h3>

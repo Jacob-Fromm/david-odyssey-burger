@@ -370,7 +370,7 @@ div.testimonials {
 #about-section {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   justify-content: space-between;
   /* margin-left: 10vw; */
 }
@@ -485,7 +485,7 @@ div.testimonials {
   /* background-color: white; */
   width: 45vw;
   min-width: 250px;
-  margin: 1vw 5vw 3vw 10vw;
+  margin: 1vw 2vw 1vw 1vw;
   box-shadow: 10px 10px #fdc1d3;
   padding: 10px 10px 0px 10px;
   -webkit-transition: 0.65s;
@@ -859,8 +859,7 @@ header nav ul {
 
 header nav ul li {
   color: white;
-  font-family: -apple-system, Georgia, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -1021,8 +1020,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, Georgia, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 3.25rem;
@@ -1200,8 +1198,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, Georgia, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -1217,8 +1214,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, Georgia, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -1234,8 +1230,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, Georgia, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -1251,8 +1246,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, Georgia, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -1268,8 +1262,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, Georgia, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: normal;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;

@@ -1,7 +1,7 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 112.5%/1.45em Georgia, serif, sans-serif;
+  font: 112.5%/1.45em Georgia, Times, "Times New Roman", serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -11,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
   background-color: #bd6597;
-  font-family: Georgia, sans-serif;
+  font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;

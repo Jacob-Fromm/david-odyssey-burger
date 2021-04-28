@@ -232,7 +232,7 @@ button.slick-prev {
   font-size: 1.5em;
   font-weight: bold;
   box-shadow: 5px 5px #fdc1d3;
-  width: 150px;
+  width: 50vw;
 }
 
 div.testimonials {
@@ -271,7 +271,7 @@ div.testimonials {
 }
 
 #podcast-title {
-  width: 300px;
+  width: 50vw;
   padding-bottom: 0.25em;
 }
 
@@ -411,7 +411,6 @@ div.testimonials {
   color: #fdc1d3;
   align-self: center;
   margin-left: 10vw;
-  width: 330px;
 }
 
 .about:hover h1 {
@@ -559,14 +558,10 @@ div.testimonials {
 } */
 
 #readings-title {
-  width: 300px;
+  width: 50vw;
   padding-bottom: 0.25em;
 }
 
-#about-title {
-  width: 300px;
-  padding-bottom: 0.25em;
-}
 
 #readings-text p a {
   color: #fdc1d3;
@@ -632,12 +627,15 @@ div.readings {
 #readings-info a {
   color: white;
 }
+#bio-title {
+  width: 50vw;
+  padding-bottom: 0.25em;
+}
 
 /* .readings h3 {
   
   /* margin-top: 17em; */
 /* position: fixed; */
-padding: 0.5em;
 /* background-color: black; */
 /* color: white; */
 /* }  */

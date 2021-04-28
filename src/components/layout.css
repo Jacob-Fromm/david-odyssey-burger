@@ -667,12 +667,21 @@ padding: 0.5em;
   margin-bottom: 1.5em;
 }
 
+.calendly-container h2 {
+  text-align: left;
+  box-shadow: 0px 3px #fdc1d3;
+  /* margin-left: auto;
+  margin-right: 2em; */
+  padding-right: 1.5em;
+  width: 100%
+}
+
 @media (max-width: 960px) {
   .calendly-btn-and-text {
-    justify-content:left
+    justify-content:space-around
   }
   .calendly-btn-and-text a {
-    width: 50%;
+    width: 30vw;
   }
   .calendly-title-and-text {
     width: 50%;

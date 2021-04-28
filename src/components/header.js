@@ -38,7 +38,7 @@ function Header({ siteTitle }) {
               <li>About</li>
             </Link>
             <Link to='/articles' style={linkStyles}>
-              <li>Articles</li>
+              <li>Writing</li>
             </Link>
             <Link to='/podcast' style={linkStyles}>
               <li>Podcast</li>

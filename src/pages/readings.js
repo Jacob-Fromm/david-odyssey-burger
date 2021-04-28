@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import AstrologyImage from '../images/DAVID_ASTROLOGY.jpg'
 import TestimonialCarousel from '../components/TestimonialCarousel'
 import { InlineWidget } from "react-calendly";
+import CalendlyPopup from '../components/CalendlyPopup'
 
 export default function Readings(){
     return(
@@ -27,6 +28,7 @@ export default function Readings(){
                     <p>David Odyssey offers archetypal, intuitive readings through astrology and the Tarot. Astrology readings offer a zoomed-out guide to the symbols and meanings of your birth chart, leading up to the planetary movements of the current moment. The Tarot invokes archetypal imagery to spark dialogue and insight on any immediate questions, no matter how broad or specific.</p>
 
                     <p>All readings are new-user friendly, and conducted over Zoom, usually lasting up to an hour. Bookings are available below. For questions, sliding scale rates or to buy a gift reading, contact <a href="mailto: adavidodyssey@gmail.com">adavidodyssey@gmail.com</a> to book a reading.</p>
+                    <CalendlyPopup />
                     <div className="testimonials">
                         <h3>Testimonials</h3>
                         <TestimonialCarousel/>

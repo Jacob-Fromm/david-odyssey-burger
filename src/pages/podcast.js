@@ -26,7 +26,7 @@ export default function Podcast() {
                     <iframe title="The Luminaries Podcast by David Odyssey" src="https://playlist.megaphone.fm?p=ADL3471774599" width="100%" height="482" frameborder="no" scrolling="yes"></iframe>
                     <div className="podcast-btn-container">
                         <h3 id="apple-btn"><a href="https://podcasts.apple.com/us/podcast/the-luminaries-with-david-odyssey/id1464759824">Subscribe on Apple</a></h3>
-                        <h3><a href="https://open.spotify.com/show/4fNGhRkv7OrZnXgLI3BYwm?si=FWgSGviuSnCzk5Vu7Pp5sg&nd=1">Subscribe on Spotify</a></h3>
+                        <h3 id="spotify-btn"><a href="https://open.spotify.com/show/4fNGhRkv7OrZnXgLI3BYwm?si=FWgSGviuSnCzk5Vu7Pp5sg&nd=1">Subscribe on Spotify</a></h3>
                     </div>
                 </div>
             </div>

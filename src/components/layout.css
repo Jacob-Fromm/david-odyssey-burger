@@ -36,7 +36,6 @@ body {
 .article-root h1 span {
   padding-bottom: 0.02em;
   border-bottom: 0.1em solid white;
-
 }
 
 .article-root h1:hover {
@@ -285,7 +284,6 @@ div.testimonials {
   justify-self: left;
 } */
 
-
 .socials a {
   color: white;
   text-decoration: none;
@@ -322,11 +320,11 @@ div.testimonials {
 }
 
 #twitter-icon {
-  margin-right: .25em;
+  margin-right: 0.25em;
 }
 
 #insta-icon {
-  margin-right: .25em;
+  margin-right: 0.25em;
 }
 
 .socials h5 {
@@ -345,7 +343,7 @@ div.testimonials {
   font-size: 1.25em;
   min-width: 200px;
   margin-right: 0.5em;
- padding: 0.5em;
+  padding: 0.5em;
   border-style: solid;
   -webkit-transition: 0.65s;
 }
@@ -361,6 +359,12 @@ div.testimonials {
 
 #apple-btn {
   margin-right: 0.75em;
+  width: 45vw;
+  text-align: center;
+}
+#spotify-btn {
+  width: 45vw;
+  text-align: center;
 }
 
 #about-section {
@@ -420,7 +424,7 @@ div.testimonials {
 
 .about h1 {
   -webkit-transition: 0.65s;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
 }
 
 .about-title a {
@@ -529,8 +533,6 @@ div.testimonials {
   }
 }
 
-
-
 /* @media (max-width: 250px) {
   .hero-text {
     right: 30%;
@@ -561,7 +563,6 @@ div.testimonials {
   width: 50vw;
   padding-bottom: 0.25em;
 }
-
 
 #readings-text p a {
   color: #fdc1d3;
@@ -668,7 +669,6 @@ div.readings {
   margin-bottom: 0.5em;
 }
 
-
 .calendly-btn-and-text h4 {
   width: 30vw;
   margin-bottom: 1vh;
@@ -709,7 +709,7 @@ div.readings {
   margin-right: 2em; */
   margin-top: 1em;
   width: 100%;
-  padding-bottom: .2em;
+  padding-bottom: 0.2em;
 }
 
 @media (max-width: 768px) {

@@ -431,6 +431,26 @@ div.testimonials {
   flex-direction: column;
 }
 
+.about:hover h3 a {
+  color: white;
+  transition: .65s;
+}
+
+.about h3 a {
+  color: yellow;
+  -webkit-transition: .65s;
+}
+
+/* .about:hover .about-main {
+  box-shadow: 10px 10px #FEFF6F;
+  color: yellow;
+  transition: .65s
+} */
+
+/* .about .about-main {
+   -webkit-transition: .65s;
+} */
+
 .about-main {
   color: #fdc1d3;
   /* background-color: white; */

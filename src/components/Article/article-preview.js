@@ -21,7 +21,7 @@ function ArticlePreview(props) {
                     alt={props.headline}
                 />
             <h3 >{props.headline}</h3>
-            <h5>for {props.publication} on {props.publicationDate}</h5>
+            <h5>for <em>{props.publication}</em> on {props.publicationDate}</h5>
             </div>
         </Link>
     )

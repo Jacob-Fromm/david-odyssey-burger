@@ -6,7 +6,7 @@ import podcastImage from '../images/podcast-image.jpg'
 
 export default function Podcast() {
     return (
-        <Layout >
+        <Layout>
             <div className="podcast-header">
                 {/* <h1>The Luminaries Podcast</h1> */}
                 <Link to="iframe-container" smooth duration={1000}>
@@ -31,9 +31,7 @@ export default function Podcast() {
             <div id="iframe-container">
                 <iframe className="iframe" title="Podcast-Player" frameborder="10" src="https://playlist.megaphone.fm?p=ADL3471774599" width="100%" height="482" ></iframe>
             </div>
-        </div>
-            
-           
+            </div>
         </Layout>
     )
 }

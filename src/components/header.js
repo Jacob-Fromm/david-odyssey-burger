@@ -35,7 +35,7 @@ function Header({ siteTitle }) {
         <nav class={menuOpen ? "menu menu-active" : "menu"}>
           <ul>
             <Link to='/articles' style={linkStyles}>
-              <li>Articles</li>
+              <li>Writing</li>
             </Link>
             <Link to='/podcast' style={linkStyles}>
               <li>Podcast</li>

@@ -8,12 +8,10 @@ const Hero = () => {
             <div className="hero" style={{
                 width: '100vw'
             }}>
-                <div className="hero-text" >
-                    <Link to="about-section" smooth duration={1000}>
-                        <h2><em>Welcome to the world of</em></h2>
-                    <h1>DAVID ODYSSEY</h1>
-                        <h3>↓</h3>
-                    </Link>
+            <Link className="hero-text" to="about" smooth duration={1000} />
+                <div>
+                    <h2><em>Welcome to the world of</em></h2>
+                    <h1>DAVID <br></br>ODYSSEY</h1>
                 </div>
             </div>
         </section>

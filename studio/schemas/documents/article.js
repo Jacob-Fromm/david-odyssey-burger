@@ -30,7 +30,11 @@ export default {
         {
             name: 'publicationDate',
             title: 'Publication Date',
-            type: 'date'
+            type: 'date',
+             options: {
+                dateFormat: 'MM.DD.YYYY',
+                calendarTodayLabel: 'Today'
+        } 
         },
         {
             name: 'image',

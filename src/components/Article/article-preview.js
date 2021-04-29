@@ -10,8 +10,11 @@ function ArticlePreview(props) {
         textDecoration: 'none',
         color: 'black'
     }
+
+    console.log(props)
     return (
         <Link style={linkStyles} to={props.url}>
+
             <div className='article-preview'>
                 <img
                     src={urlFor(props.image)

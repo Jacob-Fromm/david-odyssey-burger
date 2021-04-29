@@ -5,9 +5,11 @@ import createSchema from 'part:@sanity/base/schema-creator'
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // Document types
+import category from './documents/category'
 import person from './documents/person'
 import siteSettings from './documents/siteSettings'
 import article from './documents/article'
+import publication from './documents/publication'
 // Object types
 import bioPortableText from './objects/bioPortableText'
 import figure from './objects/figure'
@@ -31,8 +33,10 @@ export default createSchema({
     simplePortableText,
     // The following are document types which will appear
     // in the studio.
+    category,
     person,
     article,
+    publication,
     siteSettings
   ])
 })

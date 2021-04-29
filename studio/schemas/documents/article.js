@@ -1,6 +1,6 @@
 export default {
     name: 'article',
-    title: 'Article',
+    title: 'Articles',
     type: 'document',
     fields: [
         {
@@ -24,7 +24,8 @@ export default {
         {
             name: 'publication',
             title: 'Publication',
-            type: 'string'
+            type: 'reference',
+            to: {type: 'publication'}
         },
         {
             name: 'publicationDate',
@@ -36,32 +37,6 @@ export default {
             title: 'Article Image',
             type: 'figure'
         },
-        // {
-        //     name: 'image',
-        //     title: 'Article Image',
-        //     type: 'image',
-        //     hidden: false,
-        //     readOnly: false,
-        //     description: 'article image',
-        //     options: {
-        //         hotspot: true
-        //     },
-        //     fields: [
-        //         {
-        //             name: 'caption',
-        //             type: 'string',
-        //             title: 'Caption',
-        //             options: {
-        //                 isHighlighted: true
-        //             }
-        //         },
-        //         {
-        //             name: 'attribution',
-        //             type: 'string',
-        //             title: 'Attribution',
-        //         }
-        //     ]
-        // },
         {
             name: 'author',
             title: 'Author',

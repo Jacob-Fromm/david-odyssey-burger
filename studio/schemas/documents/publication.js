@@ -11,7 +11,8 @@ export default {
         {
             name: 'url',
             title: 'URL',
-            type: 'url'
+            type: 'url',
+            description: "Must include 'https://' to be a valid URL"
         }
     ]
 }

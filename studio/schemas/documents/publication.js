@@ -9,14 +9,6 @@ export default {
             type: 'string'
         },
         {
-            name: 'slug',
-            title: 'Slug',
-            type: 'slug',
-            options: {
-                source: 'name'
-            }
-        },
-        {
             name: 'url',
             title: 'URL',
             type: 'url'

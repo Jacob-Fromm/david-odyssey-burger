@@ -23,10 +23,12 @@ function ArticlePreview(props) {
                         .url()}
                     alt={props.headline}
                 />
-            <h3 >{props.headline}</h3>
-            {props.publication ?
-                <h5>for <em>{props.publication.name}</em> on {props.publicationDate}</h5> 
-                : <h5>published on {props.publicationDate}</h5>}
+            <div className='article-preview-headline-and-publication-data'>
+                <h3 >{props.headline}</h3>
+                {props.publication ?
+                    <h5>for <em>{props.publication.name}</em> on {props.publicationDate}</h5> 
+                    : <h5>published on {props.publicationDate}</h5>}
+            </div>
             </div>
         </Link>
     )

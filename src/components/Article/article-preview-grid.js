@@ -9,7 +9,7 @@ function ArticlePreviewGrid(props) {
     return (
         <div className="article-root">
             <div className="bio-text">
-                <h2>{props.title}</h2>
+                <h2 id="writing-title">{props.title}</h2>
             </div>
             <ul className="article-grid">
                 {props.nodes &&

@@ -5,8 +5,25 @@ import AstrologyImage from '../images/DAVID_ASTROLOGY.jpg'
 import TestimonialCarousel from '../components/TestimonialCarousel'
 import { InlineWidget } from "react-calendly";
 import CalendlyPopup from '../components/CalendlyPopup'
+import { graphql } from 'gatsby'
 
-export default function Readings(){
+export const query = graphql`
+    query TestimonialQuery {
+        testimonials: allSanityTestimonial {
+            edges {
+            node {
+                quote
+                name
+            }
+        }
+    }
+}
+`
+
+
+export default function Readings(props){
+    const {data} = props
+    console.log("testimonial data", data)
     return(
         <Layout>
             <div className="bio-container">
@@ -31,7 +48,7 @@ export default function Readings(){
                     <CalendlyPopup />
                     <div className="testimonials">
                         <h3>Testimonials</h3>
-                        <TestimonialCarousel/>
+                        <TestimonialCarousel testimonials={data.testimonials.edges}/>
                     </div>
                 </div>
             </div>

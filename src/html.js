@@ -11,14 +11,14 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <meta property="twitter:image" content="https://davidodyssey.com/static/DAVID_SPLASH_PAGE_2-b5a4d9efca674b257511929c2bcd3967.jpg"></meta>
+        {/* <meta property="twitter:image" content="https://davidodyssey.com/static/DAVID_SPLASH_PAGE_2-b5a4d9efca674b257511929c2bcd3967.jpg"></meta>
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@davidodyssey" />
         <meta name="twitter:creator" content="@davidodyssey" />
         <meta property="og:url" content="http://davidodyssey.com/" />
         <meta property="og:title" content="David Odyssey" />
         <meta property="og:description" content="enter the angel dimension" />
-        <meta property="og:image" content="https://davidodyssey.com/static/DAVID_SPLASH_PAGE_2-b5a4d9efca674b257511929c2bcd3967.jpg" />
+        <meta property="og:image" content="https://davidodyssey.com/static/DAVID_SPLASH_PAGE_2-b5a4d9efca674b257511929c2bcd3967.jpg" /> */}
         
         {/* <script src="https://kit.fontawesome.com/96cf8fbf46.js" crossorigin="anonymous"></script> */}
       </head>

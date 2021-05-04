@@ -1246,7 +1246,7 @@
   version "1.0.6"
   resolved "https://registry.npmjs.org/@sanity/icons/-/icons-1.0.6.tgz#ae9e9f79b17f8b48304c930e527f05e5138cba99"
 
-"@sanity/image-url@^0.140.19":
+"@sanity/image-url@^0.140.19", "@sanity/image-url@^0.140.22":
   version "0.140.22"
   resolved "https://registry.npmjs.org/@sanity/image-url/-/image-url-0.140.22.tgz#7a65f56bb751f7b1c5dfacfadd34ee10fc4f0fde"
 
@@ -7746,6 +7746,12 @@ sanity-plugin-dashboard-widget-netlify@^1.0.1:
     abort-controller "^2.0.3"
     react-props-stream "^1.0.0"
     rxjs "^6.0.0"
+
+sanity-plugin-social-preview@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.npmjs.org/sanity-plugin-social-preview/-/sanity-plugin-social-preview-0.1.5.tgz#4f1f10e9078b9906b6d0924f99f7c79d379efb07"
+  dependencies:
+    "@sanity/image-url" "^0.140.22"
 
 sax@~1.2.4:
   version "1.2.4"

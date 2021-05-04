@@ -4,7 +4,6 @@
     "name": "David Odyssey",
     "basePath": "/studio"
   },
-  
   "api": {
     "projectId": "tnd2c0o9",
     "dataset": "production"
@@ -18,7 +17,8 @@
     "@sanity/dashboard",
     "dashboard-widget-structure-menu",
     "dashboard-widget-document-list",
-    "dashboard-widget-netlify"
+    "dashboard-widget-netlify",
+    "social-preview"
   ],
   "parts": [
     {
@@ -35,4 +35,3 @@
     }
   ]
 }
-

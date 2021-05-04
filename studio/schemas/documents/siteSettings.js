@@ -26,6 +26,11 @@ export default {
       description: 'Describe your portfolio for search engines and social media.'
     },
     {
+      name: 'image',
+      type: 'figure',
+      title: 'Image'
+    },
+    {
       name: 'keywords',
       type: 'array',
       title: 'Keywords',

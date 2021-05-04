@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import Hero from "../components/Hero"
 import About from "../components/About"
 import {graphql} from 'gatsby'
+import splashImage from '../images/DAVID_SPLASH_PAGE_2.jpg'
 
 export const query = graphql`
   query IndexPageQuery {
@@ -70,10 +71,9 @@ export const query = graphql`
 
 const IndexPage = (props) => {
   const { data, errors } = props
-  console.log("index page data ", data)
   return(
     <Layout data={data}>
-        <SEO title="David Odyssey" />
+        <SEO title="David Odyssey"/>
         <Hero />
         <About articles={data.articles.edges}/>
     </Layout>

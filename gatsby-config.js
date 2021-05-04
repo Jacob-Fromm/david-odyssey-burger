@@ -12,6 +12,9 @@ module.exports = {
     title: `David Odyssey`,
     description: `enter the angel dimension`,
     author: `Jacob Fromm`,
+    image: '/DAVID_SPLASH_PAGE_2-b5a4d9efca674b257511929c2bcd3967.jpg',
+    url: "https://www.davidodyssey.com"
+
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

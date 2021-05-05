@@ -9,8 +9,9 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import OgImage from  'gatsby-plugin-og-images'
 
-function SEO({ description, lang, meta, title }) {
+function SEO({ description, lang, meta, title, image }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -19,11 +20,13 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            image
           }
         }
       }
     `
   )
+
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
@@ -39,6 +42,10 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `description`,
           content: metaDescription,
+        },
+        {
+          property: `og:image`,
+          content: site.siteMetadata.image
         },
         {
           property: `og:title`,
@@ -77,6 +84,7 @@ SEO.defaultProps = {
   lang: `en`,
   meta: [],
   description: ``,
+  image: ``
 }
 
 SEO.propTypes = {
@@ -84,6 +92,23 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  image: PropTypes.string
 }
 
+//   const  Og = ({ data }) => {
+// 	const { id } = data.markdownRemark
+// 	return (
+// 		<div>
+// 			...
+// 			<OgImage id={id}  />
+// 		</div>
+// 	)
+// }
+
+// export const og = graphql`
+// query og($id: String!) {
+// 	markdownRemark(id: { eq: $id }) {
+// 		id
+// 	}
+// }`
 export default SEO

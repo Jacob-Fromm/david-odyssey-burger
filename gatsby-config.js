@@ -24,6 +24,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+  //   {
+  //   resolve: 'gatsby-plugin-og-images',
+  //   options: {
+  //     template: 'og',
+  //     domain: `https://davidodyssey.com`,
+  //     debug: true
+  //   }
+  // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

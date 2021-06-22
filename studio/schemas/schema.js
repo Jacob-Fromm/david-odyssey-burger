@@ -11,6 +11,7 @@ import siteSettings from './documents/siteSettings'
 import article from './documents/article'
 import publication from './documents/publication'
 import testimonial from './documents/testimonial'
+import reading from './documents/reading'
 // Object types
 import bioPortableText from './objects/bioPortableText'
 import figure from './objects/figure'
@@ -39,6 +40,7 @@ export default createSchema({
     article,
     publication,
     testimonial,
+    reading,
     siteSettings
   ])
 })

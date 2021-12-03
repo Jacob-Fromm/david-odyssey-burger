@@ -7,7 +7,7 @@ export default function CalendlyPopup() {
             <h2>Tarot</h2>
             <div className='calendly-btn-and-text'>
                 <div className='calendly-title-and-text'>
-                    <h4><strong>Tarot reading, $80</strong></h4>
+                    <h4><strong>Tarot reading, $90</strong></h4>
                     <p><em>Zoom Tarot reading, covering two questions or arenas of interest</em></p>
                 </div>
                     <PopupText
@@ -34,7 +34,7 @@ export default function CalendlyPopup() {
                      <h2>Astrology</h2>
             <div className='calendly-btn-and-text'>
                 <div className='calendly-title-and-text'>
-                    <h4><strong>Astrology chart reading, $180</strong></h4>
+                    <h4><strong>Astrology chart reading, $200</strong></h4>
                     <p><em>Zoom chart reading covering the elements of your essential astrology</em></p>
                 </div>
                     <PopupText
@@ -47,7 +47,7 @@ export default function CalendlyPopup() {
             </div>
             <div className='calendly-btn-and-text'>
                 <div className='calendly-title-and-text'>
-                    <h4><strong>Astrology transits reading, $180</strong></h4>
+                    <h4><strong>Astrology transits reading, $200</strong></h4>
                     <p><em>Zoom reading covering upcoming dates and major astrological “events,” based on your chart</em></p>
                 </div>
                     <PopupText
@@ -61,7 +61,7 @@ export default function CalendlyPopup() {
             <h2>Packages</h2>
             <div className='calendly-btn-and-text'>
                 <div className='calendly-title-and-text'>
-                    <h4><strong>Astrology chart + transits readings, $300</strong></h4>
+                    <h4><strong>Astrology chart + transits readings, $340</strong></h4>
                     <p><em>Two readings, covering essential chart elements and upcoming astrological “events”</em></p>
                 </div>
                     <PopupText
@@ -74,7 +74,7 @@ export default function CalendlyPopup() {
             </div>
             <div className='calendly-btn-and-text'>
                 <div className='calendly-title-and-text'>
-                    <h4><strong>Astrology chart + Tarot readings, $225</strong></h4>
+                    <h4><strong>Astrology chart + Tarot readings, $245</strong></h4>
                     <p><em>Two readings, including essential chart breakdown and two Tarot spreads</em></p>
                 </div>
                     <PopupText

@@ -86,6 +86,5 @@ export default function CalendlyPopup() {
                         />
             </div>
         </div>
-        
     )
 }

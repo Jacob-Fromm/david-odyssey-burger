@@ -373,7 +373,7 @@ div.testimonials {
 #about-section {
   display: flex;
   flex-direction: row;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   /* margin-left: 10vw; */
 }
@@ -564,10 +564,8 @@ div.testimonials {
 
 #writing-title {
   width: 50vw;
-  padding-bottom: 0.25em
+  padding-bottom: 0.25em;
 }
-
-
 
 #readings-title {
   width: 50vw;

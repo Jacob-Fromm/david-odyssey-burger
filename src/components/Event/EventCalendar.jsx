@@ -1,4 +1,4 @@
-import { Link, useStaticQuery, graphql } from 'gatsby'
+import {useStaticQuery, graphql } from 'gatsby'
 import React from 'react'
 import Event from './Event'
 
@@ -58,9 +58,9 @@ function EventCalendar(props) {
     const events = data.events.edges
     return (
         <>
+        {console.log("events data", events)}
             <h1>Events Here</h1>
         <div className="event-root">
-            {console.log("events data", events)}
             <div className="bio-text">
                 <h2>Upcoming Events</h2>
             </div>

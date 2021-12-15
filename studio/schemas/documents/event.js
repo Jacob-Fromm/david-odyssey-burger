@@ -38,8 +38,8 @@ export default {
             title: 'Date',
             type: 'datetime',
              options: {
-                dateFormat: 'MM.DD.YYYY',
-                timeFormat: 'HH:mm'
+                dateFormat: 'MMMM Do, YYYY',
+                timeFormat: 'h:mm a'
         } 
         },
         {

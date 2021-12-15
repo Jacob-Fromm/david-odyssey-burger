@@ -187,11 +187,36 @@ body {
 .calendar-list {
   list-style: none;
   margin-left: 0;
-}
-.calendar-list li a {
   display: flex;
   flex-direction: row;
 }
+
+.calendar-list li {
+  padding-bottom: 1em;
+  border-bottom: #fdc1d3 solid;
+}
+
+div.event-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: right;
+  color: white;
+}
+
+.event-details img {
+  padding-right: 1em;
+}
+
+.event-description {
+  color: white;
+}
+
+.event-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .bio-container {
   /* display: flex;
   flex-direction: row; */

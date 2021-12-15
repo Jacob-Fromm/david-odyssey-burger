@@ -7,7 +7,7 @@ import { InlineWidget } from "react-calendly";
 import CalendlyPopup from '../components/CalendlyPopup'
 import { graphql } from 'gatsby'
 import SquarespaceCal from '../components/SquarespaceCal'
-import Event from '../components/Event/Event.jsx'
+import EventCalendar from '../components/Event/EventCalendar.jsx'
 
 export const query = graphql`
     query TestimonialQuery {
@@ -41,8 +41,8 @@ export default function Readings(props){
             />
             <h6><a href="http://www.gregkozatek.com">Photo Illustration by Greg Kozatek</a></h6>
             {/* <InlineWidget url="https://calendly.com/adavidodyssey" /> */}
-              <SquarespaceCal />
-              <Event />
+              {/* <SquarespaceCal /> */}
+              <EventCalendar />
             </div>
                 <div id="readings-text" className="bio-text">
                     <h2 style={{width: '50vw'}}id="readings-title">READINGS</h2>

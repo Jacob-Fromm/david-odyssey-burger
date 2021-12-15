@@ -184,6 +184,14 @@ body {
   object-fit: cover;
 }
 
+.calendar-list {
+  list-style: none;
+  margin-left: 0;
+}
+.calendar-list li a {
+  display: flex;
+  flex-direction: row;
+}
 .bio-container {
   /* display: flex;
   flex-direction: row; */

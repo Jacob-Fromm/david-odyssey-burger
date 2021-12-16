@@ -21,7 +21,7 @@ export default function Event(props) {
                                 .url()}
                             alt={props.name}
                         />
-                        <h4 ><strong>{props.name} | {moment(props.eventDate).format('MMMM Do, YYYY')} at {moment(props.eventDate).format('h:mm a')}</strong></h4>
+                        <h4 ><strong>{props.name}</strong> | {moment(props.eventDate).format('MMMM Do, YYYY')} at {moment(props.eventDate).format('h:mm a')}</h4>
                     </div>
                     <div className="event-description">
                         <p>{props.description}</p>

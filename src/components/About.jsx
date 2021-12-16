@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import ArticlePreviewGrid from './Article/article-preview-grid'
-import ArticleCarousel from './ArticleCarousel'
+import ArticleCarousel from './TestimonialCarousel'
 
 const linkStyles = {
   color: "black",
@@ -13,66 +13,59 @@ export default function About(props){
 
     return(
         <>
-        <section className="about" id="about-writing">
-          <div id="writing-container" className="about-section-container">
-            <div className="title-and-description-container">
+        <section className="about" >
+            <div className="about-title">
+            <Link className="about-title" to="/bio" style={{ textDecoration: 'none' }}>
+              <h1>ABOUT</h1>
+            </Link>
+            </div>
+            <div className="about-main">
+                <h3>You have entered the digital domain of the writer, editor, performer, diviner and cosmic being David Odyssey. Through here, you can read his published work, book an astrology/tarot reading, and listen to new podcast episodes.</h3>
+            <Link to="/bio" style={linkStyles}>
+              <h3 id="long-nav" className="inner-nav">READ THE ORIGIN STORY{'>'} </h3>
+            </Link>
+            </div>
+        </section>
+        <section className="about">
               <div className="about-title">
                 <Link className="about-title" to="/articles" style={{ textDecoration: 'none' }}>
                   <h1>WRITING</h1>
                 </Link>
               </div>
               <div className="about-main">
-                <h3>As a former editor at Time Out New York, and as a contributor to DAZED, Vulture, EW, The InQueery and other sites, he has covered queer, alternative and emerging artistic scenes.</h3>
+                <h3>Since 2008, David has written about nightlife, music, comedy, drag, cabaret and TV, primarily in New York City. He has written for <em>Time Out New York</em>, <em>DAZED</em>, <em>Vulture</em>, <em>EW</em>, and <em>The InQueery</em>, among other sources. </h3>
                 <Link to="/articles" style={linkStyles}>
-                  <h5 id="long-nav" className="inner-nav">EXPLORE DAVID'S WRITING{'>'} </h5>
+                  <h3 id="long-nav" className="inner-nav">EXPLORE DAVID'S WRITING{'>'} </h3>
                 </Link>
-              </div>
-              </div>
-              <ArticleCarousel articles={props.articles} />
+              {/* <ArticleCarousel articles={props.articles} /> */}
           </div>
         </section>
-        <section className="about" id="about-section">
-            <div className="about-title">
-            <Link className="about-title" to="/articles" style={{ textDecoration: 'none' }}>
-              <h1>ABOUT</h1>
-            </Link>
-            </div>
-            <div className="about-main">
-                <h3>In his work as a journalist, performer and diviner, David Odyssey charts a course through the stories of the real and the mythic.</h3>
-                
-                <h3>On his podcast The Luminaries and at live salons and cabaret shows, he explores the origin stories and cosmic makeup of his guests (and uncovers his own epic saga). Through Tarot and astrology, he offers an archetypal framework for the current moment. He lives, eternally, in New York City. </h3>
-            <Link to="/articles" style={linkStyles}>
-              <h5 id="long-nav" className="inner-nav">EXPLORE DAVID'S WRITING{'>'} </h5>
-            </Link>
-            </div>
-        </section>
         <section className="about" id="about-podcast">
-            <div className="about-title">
-              <Link className="about-title" to="/podcast" style={{textDecoration: 'none'}}>
-                <h1>PODCAST</h1>
-            </Link>
-            </div>
-            <div className="about-main">
-                <h3>The Luminaries with David Odyssey features the new gods of the comedy, drag, cabaret and literary scenes, sharing their life stories and celebrating the astrology of their greatest influences. Available on Apple Podcasts, Spotify, and wherever podcasts are sold. </h3>
-                <Link to="/podcast" style={linkStyles}>
-              <h5 className="inner-nav">LEARN MORE{'>'} </h5>
-                </Link>
-            </div>
+      
+              <div className="about-title">
+                <Link className="about-title" to="/podcast" style={{textDecoration: 'none'}}>
+                  <h1>PODCAST</h1>
+              </Link>
+              </div>
+              <div className="about-main">
+                <h3><em>The Luminaries with David Odyssey</em> features the new gods of the comedy, drag, cabaret and literary scenes, sharing their life stories and celebrating the astrology of their greatest influences. New episodes available weekly on <a href="https://podcasts.apple.com/us/podcast/the-luminaries-with-david-odyssey/id1464759824">Apple Podcasts</a>, <a href="https://open.spotify.com/show/4fNGhRkv7OrZnXgLI3BYwm?si=FWgSGviuSnCzk5Vu7Pp5sg&nd=1">Spotify</a>, and wherever podcasts are sold.</h3>
+                  <Link to="/podcast" style={linkStyles}>
+                    
+                <h3 className="inner-nav">LISTEN TO ALL EPISODES HERE{'>'} </h3>
+                  </Link>
+          </div>
         </section>
         <section className="about" id="about-readings">
           <Link className="about-title" to="/readings" style={{ textDecoration: 'none' }}>
             <h1>READINGS</h1>
           </Link>
             <div className="about-main">
-            <h3>David Odyssey offers archetypal, intuitive readings through astrology and the Tarot. All readings are new-user friendly, and conducted over Zoom. Options, rates and reading packages abound; sliding scale is available. Contact <a href="mailto: adavidodyssey.com">adavidodyssey@gmail.com</a> for more information.  </h3>
-            
+            <h3>David Odyssey offers archetypal, intuitive readings through astrology and the Tarot.</h3>
             <Link to="/readings" style={linkStyles}>
-              <h5 className="inner-nav">BOOK A READING {'>'} </h5>
+              <h3 className="inner-nav">LEARN MORE AND BOOK A READING{'>'} </h3>
             </Link>
-  
             </div>
         </section>
-        
 </>
     )
 }

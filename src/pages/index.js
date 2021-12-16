@@ -18,8 +18,11 @@ export const query = graphql`
           current
         }
         url
-        publication
-        publicationDate(formatString: "")
+        publication {
+          name
+          url
+        }
+        publicationDate
         author {
           name
         }

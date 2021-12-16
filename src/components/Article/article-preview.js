@@ -10,8 +10,11 @@ function ArticlePreview(props) {
         textDecoration: 'none',
         color: 'black'
     }
+
+    console.log(props)
     return (
         <Link style={linkStyles} to={props.url}>
+
             <div className='article-preview'>
                 <img
                     src={urlFor(props.image)
@@ -20,8 +23,17 @@ function ArticlePreview(props) {
                         .url()}
                     alt={props.headline}
                 />
+<<<<<<< HEAD
             <h3 >{props.headline}</h3>
             <h5>for <em>{props.publication}</em> on {props.publicationDate}</h5>
+=======
+            <div className='article-preview-headline-and-publication-data'>
+                <h3 >{props.headline}</h3>
+                {props.publication ?
+                    <h5>for <em>{props.publication.name}</em> on {props.publicationDate}</h5> 
+                    : <h5>published on {props.publicationDate}</h5>}
+            </div>
+>>>>>>> 546edecec2f162cc1b9c4bc2d9610825bd11014f
             </div>
         </Link>
     )

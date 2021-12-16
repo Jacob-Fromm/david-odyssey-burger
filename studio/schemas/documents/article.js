@@ -1,6 +1,6 @@
 export default {
     name: 'article',
-    title: 'Article',
+    title: 'Articles',
     type: 'document',
     fields: [
         {
@@ -19,49 +19,29 @@ export default {
         {
             name: 'url',
             title: 'URL',
-            type: 'url'
+            type: 'url',
+            description: "Must include 'https://' to be a valid URL"
         },
         {
             name: 'publication',
             title: 'Publication',
-            type: 'string'
+            type: 'reference',
+            to: {type: 'publication'}
         },
         {
             name: 'publicationDate',
             title: 'Publication Date',
-            type: 'date'
+            type: 'date',
+             options: {
+                dateFormat: 'MM.DD.YYYY',
+                calendarTodayLabel: 'Today'
+        } 
         },
         {
             name: 'image',
             title: 'Article Image',
             type: 'figure'
         },
-        // {
-        //     name: 'image',
-        //     title: 'Article Image',
-        //     type: 'image',
-        //     hidden: false,
-        //     readOnly: false,
-        //     description: 'article image',
-        //     options: {
-        //         hotspot: true
-        //     },
-        //     fields: [
-        //         {
-        //             name: 'caption',
-        //             type: 'string',
-        //             title: 'Caption',
-        //             options: {
-        //                 isHighlighted: true
-        //             }
-        //         },
-        //         {
-        //             name: 'attribution',
-        //             type: 'string',
-        //             title: 'Attribution',
-        //         }
-        //     ]
-        // },
         {
             name: 'author',
             title: 'Author',

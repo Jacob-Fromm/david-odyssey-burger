@@ -1,12 +1,10 @@
 export default {
   widgets: [
-    // {
-    //   name: 'sanity-tutorials',
-    //   options: {
-    //     templateRepoId: 'sanity-io/sanity-template-gatsby-portfolio'
-    //   }
-    // },
-    { name: 'structure-menu' },
+    {
+      name: 'document-list',
+      options: { title: 'Latest Articles', order: 'publicationDate desc', types: ['article'] },
+      layout: { width: 'medium', height: 'small' }
+    },
     {
       name: 'project-info',
       options: {
@@ -20,7 +18,8 @@ export default {
                 {
                   title: 'David Odyssey',
                   name: 'davidodyssey',
-                  apiId: '7c07b417-e3a5-4db9-b654-74518b4294fe'
+                  apiId: '7c07b417-e3a5-4db9-b654-74518b4294fe',
+                  // buildHookId: '608b06dc8fc171513ce1049a'
                 },
               ]
             }
@@ -40,12 +39,13 @@ export default {
         ]
       }
     },
+    // {
+    //   name: 'sanity-tutorials',
+    //   options: {
+    //     templateRepoId: 'sanity-io/sanity-template-gatsby-portfolio'
+    //   }
+    // },
     { name: 'project-users', layout: { height: 'auto' } },
-    {
-      name: 'document-list',
-      options: { title: 'Recent projects', order: '_createdAt desc', types: ['sampleProject'] },
-      layout: { width: 'medium' }
-    }
   ]
 }
 

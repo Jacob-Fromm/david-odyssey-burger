@@ -12,6 +12,7 @@ module.exports = {
     title: `David Odyssey`,
     description: `enter the angel dimension`,
     author: `Jacob Fromm`,
+    image: `https://davidodyssey.com/static/DAVID_SPLASH_PAGE_2-b5a4d9efca674b257511929c2bcd3967.jpg`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -23,6 +24,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+  //   {
+  //   resolve: 'gatsby-plugin-og-images',
+  //   options: {
+  //     template: 'og',
+  //     domain: `https://davidodyssey.com`,
+  //     debug: true
+  //   }
+  // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

@@ -8,7 +8,9 @@ function ArticlePreviewGrid(props) {
     const articles = props.articles
     return (
         <div className="article-root">
-                <h1>{props.title}</h1>
+            <div className="bio-text">
+                <h2 id="writing-title">{props.title}</h2>
+            </div>
             <ul className="article-grid">
                 {props.nodes &&
                     articles.map(article => (

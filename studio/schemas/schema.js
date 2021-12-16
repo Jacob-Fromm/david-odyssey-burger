@@ -9,6 +9,10 @@ import category from './documents/category'
 import person from './documents/person'
 import siteSettings from './documents/siteSettings'
 import article from './documents/article'
+import publication from './documents/publication'
+import testimonial from './documents/testimonial'
+import reading from './documents/reading'
+import event from './documents/event'
 // Object types
 import bioPortableText from './objects/bioPortableText'
 import figure from './objects/figure'
@@ -35,6 +39,10 @@ export default createSchema({
     category,
     person,
     article,
+    publication,
+    testimonial,
+    reading,
+    event,
     siteSettings
   ])
 })

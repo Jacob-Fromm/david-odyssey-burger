@@ -19,12 +19,17 @@ export default class TestimonialCarousel extends Component {
             speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1,
+<<<<<<< HEAD
             // autoplay: true,
+=======
+            autoplay: true,
+>>>>>>> 546edecec2f162cc1b9c4bc2d9610825bd11014f
             draggable: true,
             swipeToSlide: true,
             autoplaySpeed: 10000
         }
 
+<<<<<<< HEAD
         const testimonials = [
             {text: `My reading with David came at a very critical point in my life. I was feeling stuck, uninspired, and like I wasn’t living as the brave and creative woman I had once been. Not only did David provide a loving and detailed reading, but he truly cared about my interpretation and understanding of astrology and the intricacies of a birth chart. As if the nurturing space he provided wasn’t enough, David emailed me detailed notes before our call that I constantly refer back to. Our reading reignited a fire in me that had been dimmed for years.`,
             speaker: `Samantha Stallard, writer`},
@@ -41,6 +46,16 @@ export default class TestimonialCarousel extends Component {
                         <div className="testimonial-text">
                                 <p>"{testimonial.text}"</p>
                                 <p>— {testimonial.speaker}</p>
+=======
+    console.log("testimonial page props", this.props.testimonials)
+        return(
+            <div className="slider-container">
+                <Slider ref={slider => (this.slider = slider)} {...settings} >
+                    {this.props.testimonials.map(testimonial => (
+                        <div className="testimonial-text">
+                                <p><em>"{testimonial.node.quote}"</em></p>
+                                <p>— {testimonial.node.name}</p>
+>>>>>>> 546edecec2f162cc1b9c4bc2d9610825bd11014f
                         </div>
                     ))}
                 </Slider>

@@ -24,7 +24,7 @@ export default function Event(props) {
                         <h4 ><strong>{props.name}</strong> | {moment(props.eventDate).format('MMMM Do, YYYY')} at {moment(props.eventDate).format('h:mm a')}</h4>
                     </div>
                     <div className="event-description">
-                        <p>{props.description}</p>
+                        <p><em>{props.description}</em></p>
                     </div>
                 </div>
             </Link>

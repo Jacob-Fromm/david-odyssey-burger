@@ -184,6 +184,40 @@ body {
   object-fit: cover;
 }
 
+.calendar-list {
+  list-style: none;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.calendar-list li {
+  padding-bottom: 1em;
+  border-bottom: #fdc1d3 solid;
+}
+
+div.event-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+  color: white;
+}
+
+.event-details img {
+  padding-right: 1em;
+}
+
+.event-description {
+  color: white;
+}
+
+.event-container {
+  padding-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
 .bio-container {
   /* display: flex;
   flex-direction: row; */
@@ -373,7 +407,7 @@ div.testimonials {
 #about-section {
   display: flex;
   flex-direction: row;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   /* margin-left: 10vw; */
 }
@@ -564,10 +598,8 @@ div.testimonials {
 
 #writing-title {
   width: 50vw;
-  padding-bottom: 0.25em
+  padding-bottom: 0.25em;
 }
-
-
 
 #readings-title {
   width: 50vw;

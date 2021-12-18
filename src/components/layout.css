@@ -377,29 +377,15 @@ div.testimonials {
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  padding-right: 3em;
+  /* padding-right: 3em; */
   padding-bottom: 1em;
 }
-
-/* .socials #instagram h5 {
-  padding-left: 0.5em;
-  top: 50%;
-} */
-
-.socials #twitter {
-  /* display: flex;
-  align-items: center; */
-}
-
-/* .socials #twitter h5 {
-  padding-left: 0.5em;
-  align-self: flex-end;
-} */
 
 .socials {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 #twitter-icon {
@@ -407,6 +393,10 @@ div.testimonials {
 }
 
 #insta-icon {
+  margin-right: 0.25em;
+}
+
+#newsletter-icon {
   margin-right: 0.25em;
 }
 

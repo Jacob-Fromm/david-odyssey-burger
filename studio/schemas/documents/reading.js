@@ -30,7 +30,7 @@ export default {
         },
         {
             name: 'url',
-            title: 'Calendly URL',
+            title: 'Squarespace Direct Link',
             type: 'url',
             description: "Must include 'https://' to be a valid URL"
         }

@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from "gatsby"
 import { urlFor } from '../../lib/image-url'
 import moment from 'moment'
+// import PopupText from 'react-calendly'
 
 export default function Event(props) {
   
@@ -21,10 +22,26 @@ export default function Event(props) {
                                 .url()}
                             alt={props.name}
                         />
-                        <h4 ><strong>{props.name}</strong> | {moment(props.eventDate).format('MMMM Do, YYYY')} at {moment(props.eventDate).format('h:mm a')}</h4>
+                        <div className="event-name-and-date">
+                            <h4 ><strong>{props.name}</strong></h4>
+                            {props.eventDate.length > 1 
+                            ?
+                            <>
+                            <div className="multiple-dates">
+                                <p>{moment(props.eventDate[0]).format('MMMM Do, YYYY')} <br></br>{moment(props.eventDate[0]).format('h:mm a')} | <a href="https://app.squarespacescheduling.com/catalog.php?owner=24330143&action=addCart&clear=1&id=1189534">Register Here</a></p>
+                            
+                            <p id="future-dates">Course dates: {props.eventDate.map(function(date){
+                                return moment(date).format("MM/DD")
+                            }).join(', ')}</p>
+                            </div>
+                            </>
+                            :  
+                            <p>{moment(props.eventDate[0]).format('MMMM Do, YYYY')} <br></br>{moment(props.eventDate[0]).format('h:mm a')} | <a href="https://app.squarespacescheduling.com/catalog.php?owner=24330143&action=addCart&clear=1&id=1189534">Register Here</a></p>}
+                            
+                        </div>
                     </div>
                     <div className="event-description">
-                        <p>{props.description}</p>
+                        <p><em>{props.description}</em></p>
                     </div>
                 </div>
             </Link>

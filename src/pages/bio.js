@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 // import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faInstagramSquare, faTwitter, faTwitterSquare, instagram, twitter} from '@fortawesome/free-brands-svg-icons'
+import { faNewspaper } from '@fortawesome/free-solid-svg-icons'
 
 // import {instagram, twitter} from '@mdi/js'
 
@@ -44,6 +45,12 @@ export default function bio() {
                         <h5>David on Twitter</h5>
                     </div>
                     </a>
+                    {/* <a href="https://twitter.com/adavidodyssey">
+                   <div id="newsletter" style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
+                        <FontAwesomeIcon id="newsletter-icon" icon={faNewspaper} size="2x" color="#fdc1d3"/>
+                        <h5>Subscribe to David's Newsletter</h5>
+                    </div>
+                    </a> */}
                </div>
                 </div>
             </div>

@@ -216,6 +216,60 @@ div.event-details {
   padding-top: 0.5em;
   display: flex;
   flex-direction: column;
+  -webkit-transition: 0.65s;
+}
+
+.event-container:hover {
+  transform: scale(1.05);
+  transition: 0.65s;
+}
+
+.event-name-and-date {
+  direction: flex;
+  flex-direction: column;
+}
+
+.event-name-and-date h4 {
+  margin-bottom: 0;
+}
+
+.event-name-and-date a {
+  color: white;
+  /* border-style: solid;
+  border-color: #fdc1d3;
+  text-decoration: none;
+  padding: 1px 5px 1px 5px; */
+}
+
+/* .multiple-dates {
+  justify-content: space-evenly;
+} */
+
+#future-dates {
+  padding-top: 0;
+}
+
+@media (max-width: 768px) {
+  .event-details {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+  }
+  .event-details h4 {
+    margin-left: 0.5em;
+    text-align: left;
+    position: absolute;
+    align-self: flex-start;
+    left: 1em;
+    margin-bottom: 2em;
+  }
+  .event-details img {
+    margin-top: 2.5em;
+  }
+  .event-name-and-date p {
+    padding-top: 2.5em;
+    text-align: center;
+  }
 }
 
 .bio-container {
@@ -331,29 +385,15 @@ div.testimonials {
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  padding-right: 3em;
+  /* padding-right: 3em; */
   padding-bottom: 1em;
 }
-
-/* .socials #instagram h5 {
-  padding-left: 0.5em;
-  top: 50%;
-} */
-
-.socials #twitter {
-  /* display: flex;
-  align-items: center; */
-}
-
-/* .socials #twitter h5 {
-  padding-left: 0.5em;
-  align-self: flex-end;
-} */
 
 .socials {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 #twitter-icon {
@@ -361,6 +401,10 @@ div.testimonials {
 }
 
 #insta-icon {
+  margin-right: 0.25em;
+}
+
+#newsletter-icon {
   margin-right: 0.25em;
 }
 
@@ -701,6 +745,11 @@ div.readings {
   flex-direction: column;
   align-items: flex-start;
   width: 30vw;
+  margin-right: 1em;
+}
+
+.calendly-title-and-text strong {
+  width: 100%;
 }
 
 .calendly-btn-and-text {
@@ -709,6 +758,7 @@ div.readings {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 0.5em;
+  padding-left: 0.5em;
 }
 
 .calendly-btn-and-text h4 {
@@ -757,12 +807,27 @@ div.readings {
 @media (max-width: 768px) {
   .calendly-btn-and-text {
     justify-content: space-around;
+    display: flex;
+    flex-direction: column;
   }
   .calendly-btn-and-text a {
-    width: 30vw;
+    width: 100%;
+    align-self: flex-start;
+    padding: 0.25em;
+    font-size: 12px;
+    margin-bottom: 1.5em;
   }
   .calendly-title-and-text {
-    width: 50%;
+    width: 100%;
+    padding-right: 0.5em;
+    margin-bottom: 0.25em;
+  }
+  .calendly-title-and-text p {
+    padding-bottom: 0.5em;
+    margin-bottom: 0;
+  }
+  .calendly-title-and-text h4 {
+    width: 100%;
     padding-right: 0.5em;
   }
 }

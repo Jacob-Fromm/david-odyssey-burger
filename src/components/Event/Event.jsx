@@ -30,7 +30,7 @@ export default function Event(props) {
                             <div className="multiple-dates">
                                 <p>{moment(props.eventDate[0]).format('MMMM Do, YYYY')} <br></br>{moment(props.eventDate[0]).format('h:mm a')} | <a href="https://app.squarespacescheduling.com/catalog.php?owner=24330143&action=addCart&clear=1&id=1189534">Register Here</a></p>
                             
-                            <p id="future-dates">Future dates: {props.eventDate.slice(1).map(function(date){
+                            <p id="future-dates">Course dates: {props.eventDate.map(function(date){
                                 return moment(date).format("MM/DD")
                             }).join(', ')}</p>
                             </div>

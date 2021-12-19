@@ -45,12 +45,12 @@ export default function bio() {
                         <h5>David on Twitter</h5>
                     </div>
                     </a>
-                    <a href="https://twitter.com/adavidodyssey">
+                    {/* <a href="https://twitter.com/adavidodyssey">
                    <div id="newsletter" style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
                         <FontAwesomeIcon id="newsletter-icon" icon={faNewspaper} size="2x" color="#fdc1d3"/>
                         <h5>Subscribe to David's Newsletter</h5>
                     </div>
-                    </a>
+                    </a> */}
                </div>
                 </div>
             </div>

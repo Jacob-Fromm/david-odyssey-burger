@@ -241,6 +241,14 @@ div.event-details {
   padding: 1px 5px 1px 5px; */
 }
 
+/* .multiple-dates {
+  justify-content: space-evenly;
+} */
+
+#future-dates {
+  padding-top: 0;
+}
+
 @media (max-width: 768px) {
   .event-details {
     display: flex;

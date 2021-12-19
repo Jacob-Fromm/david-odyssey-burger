@@ -35,12 +35,19 @@ export default {
         },
         {
             name: 'eventDate',
-            title: 'Date',
-            type: 'datetime',
-             options: {
-                dateFormat: 'MMMM Do, YYYY',
-                timeFormat: 'h:mm a'
-        } 
+            title: 'Date(s)',
+            type: 'array',
+            of: [
+                {
+                    type: 'datetime',
+                    title: '',
+                    description: 'For recurring events, add as many dates as needed.',
+                     options: {
+                        dateFormat: 'MMMM Do, YYYY',
+                        timeFormat: 'h:mm a'
+                } 
+                }
+            ]
         },
         {
             name: 'image',

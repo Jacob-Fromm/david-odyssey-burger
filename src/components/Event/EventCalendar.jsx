@@ -6,7 +6,8 @@ import Event from './Event'
 function EventCalendar(props) {
   const data = useStaticQuery(graphql`
         query EventQuery {
-            events: allSanityEvent(sort: {fields: eventDate, order: ASC}) {
+            events: allSanityEvent(
+                sort: {fields: eventDate, order: ASC}) {
     edges {
       node {
         id
@@ -55,7 +56,10 @@ function EventCalendar(props) {
         }
     `)
 
+    
+    const futureEvents = data.events.edges.filter(item => item.node.eventDate > Date.now())
     const events = data.events.edges
+    console.log("future events: ", futureEvents)
     return (
         <>
         {console.log("events data", events)}

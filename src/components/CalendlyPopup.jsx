@@ -77,16 +77,7 @@ export default function CalendlyPopup(props) {
         })
     }
 
-
-    const testFunction = () => {
-        return <h1>hello</h1>
-    }
     separateData(data)
-    console.log("readings page data: ", data)
-    // console.log("separateData function: ", separateData(data))
-    console.log("taro data: ", tarotData)
-    console.log("astrology data: ", astrologyData)
-    console.log("combodata: ", comboData)
     return (
         <div className='calendly-container'>
             <div className="category-tarot">      

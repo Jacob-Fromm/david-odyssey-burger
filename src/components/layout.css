@@ -249,26 +249,39 @@ div.event-details {
   padding-top: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
   .event-details {
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
+    justify-content: center !important;
+    margin-right: 1vw;
     /* background-color: red; */
   }
-  .event-details h4 {
+  /* .event-details h4 {
     margin-left: 0.5em;
     text-align: left;
     position: absolute;
     align-self: flex-start;
     left: 1em;
     margin-bottom: 2em;
-  }
+  } */
   .event-details img {
-    margin-top: 2.5em;
+    margin-top: 1em;
+    padding-right: 0;
+    align-self: center !important;
   }
   .event-name-and-date p {
-    padding-top: 2.5em;
+    padding-top: 1.5em;
     text-align: center;
+  }
+  #event-title {
+    text-align: center;
+  }
+  .bio-image img {
+    width: 90%;
+  }
+  #future-dates {
+    padding-bottom: 2em;
   }
 }
 
@@ -295,17 +308,31 @@ button.slick-prev {
   color: red;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
   .bio-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .event-root {
+    width: 80vw;
+  }
+  .event-details img {
   }
   div.slick-list {
     width: 80vw;
   }
   div.slider-container {
     width: 80vw;
+  }
+}
+
+@media (max-width: 812px) {
+  #readings-title {
+    width: 80vw !important;
+  }
+  #readings-text p {
+    width: 80vw !important;
   }
 }
 
@@ -328,6 +355,11 @@ button.slick-prev {
 div.testimonials {
   padding-top: 1em;
   border-top: #fdc1d3 solid;
+  width: 40vw;
+}
+
+.testimonial-text {
+  width: 40vw !important;
 }
 
 .bio-image h6 {
@@ -608,7 +640,7 @@ div.testimonials {
   margin-bottom: 0.5em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
   .hero-text {
     top: 59%;
   }
@@ -646,12 +678,20 @@ div.testimonials {
 }
 
 #readings-title {
-  width: 50vw;
+  width: 40vw;
   padding-bottom: 0.25em;
 }
 
 #readings-text p a {
   color: #fdc1d3;
+}
+
+#readings-text p {
+  width: 100%;
+}
+
+#readings-text {
+  width: 40vw;
 }
 
 .readings {
@@ -804,7 +844,7 @@ div.readings {
   padding-bottom: 0.2em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 812px) {
   .calendly-btn-and-text {
     justify-content: space-around;
     display: flex;

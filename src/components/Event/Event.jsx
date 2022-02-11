@@ -18,12 +18,12 @@ export default function Event(props) {
                     <div className="event-details">
                         <img
                             src={urlFor(props.image)
-                                .width(100)
+                                .width(200)
                                 .url()}
                             alt={props.name}
                         />
                         <div className="event-name-and-date">
-                            <h4 ><strong>{props.name}</strong></h4>
+                            <h4 id="event-title"><strong>{props.name}</strong></h4>
                             {props.eventDate.length > 1 
                             ?
                             <>

@@ -412,7 +412,7 @@ div.testimonials {
   text-decoration: none;
 }
 
-#instagram {
+#newsletter {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -429,10 +429,6 @@ div.testimonials {
 }
 
 #twitter-icon {
-  margin-right: 0.25em;
-}
-
-#insta-icon {
   margin-right: 0.25em;
 }
 

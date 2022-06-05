@@ -8,6 +8,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import category from './documents/category'
 import person from './documents/person'
 import siteSettings from './documents/siteSettings'
+import siteSection from './documents/siteSection'
 import article from './documents/article'
 import publication from './documents/publication'
 import testimonial from './documents/testimonial'
@@ -43,6 +44,7 @@ export default createSchema({
     testimonial,
     reading,
     event,
+    siteSection,
     siteSettings
   ])
 })

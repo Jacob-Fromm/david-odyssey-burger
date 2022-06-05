@@ -33,13 +33,13 @@ export default function bio() {
 
                     <p>At stages all over NYC, including The Duplex and Joe’s Pub, he has played host, shared stories, and performed disco sorcery, for the sake of his own healing and the bedazzlement of his audiences. On his podcast <em>The Luminaries</em>, he explores the cosmic makeup and origin stories of his guests and their greatest inspirations, and synthesizes his thoughts on pop culture and recovery.</p>
                <div className="socials">
-                   <a href="https://davidodyssey.substack.com/">
+                   <a href="https://davidodyssey.substack.com/" target="_blank">
                    <div id="newsletter" style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
                         <FontAwesomeIcon id="newsletter-icon" icon={faNewspaper} size="2x" color="#fdc1d3" />
                         <h5 >Subscribe to David's Newsletter</h5>
                     </div>
                     </a>
-                    <a href="mailto: adavidodyssey@gmail.com">
+                    <a href="mailto: adavidodyssey@gmail.com" target="_blank">
                    <div id="twitter" style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
                         <FontAwesomeIcon id="twitter-icon" icon={faPaperPlane} size="2x" color="#fdc1d3"/>
                         <h5>Email David</h5>

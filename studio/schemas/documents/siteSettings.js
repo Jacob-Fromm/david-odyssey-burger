@@ -21,9 +21,14 @@ export default {
     },
     {
       name: 'description',
-      type: 'text',
+      type: 'array',
       title: 'Description',
-      description: 'Describe your portfolio for search engines and social media.'
+      description: 'Describe your portfolio for search engines and social media.',
+      of: [
+        {
+          type: 'block'
+        }
+      ]
     },
     {
       name: 'keywords',

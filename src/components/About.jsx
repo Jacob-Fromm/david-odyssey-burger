@@ -33,7 +33,7 @@ export default function About(props){
                 </Link>
               </div>
               <div className="about-main">
-                <h3>Since 2008, David has written about nightlife, music, comedy, drag, cabaret and TV, primarily in New York City. He has written for <em>Time Out New York</em>, <em>DAZED</em>, <em>Vulture</em>, <em>EW</em>, and <em>The InQueery</em>, among other sources. </h3>
+                <h3>Since 2008, David has covered culture, queer life and astrology, for publications including <em>Time Out New York</em>, <em>DAZED</em>, <em>Vulture and EW</em>. He has an ongoing <em>NYLON</em> column and a <a href="https://davidodyssey.substack.com/" target="_blank">substack of personal writing</a>.</h3>
                 <Link to="/articles" style={linkStyles}>
                   <h3 id="long-nav" className="inner-nav">EXPLORE DAVID'S WRITING{'>'} </h3>
                 </Link>

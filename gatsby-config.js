@@ -1,18 +1,18 @@
-require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV || 'development'}`
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV || "development"}`,
 })
 
-const clientConfig = require('./client-config')
+const clientConfig = require("./client-config")
 const token = process.env.SANITY_READ_TOKEN
 
-const isProd = process.env.NODE_ENV === 'production'
+const isProd = process.env.NODE_ENV === "production"
 
 module.exports = {
   siteMetadata: {
     title: `David Odyssey`,
     description: `enter the angel dimension`,
     author: `Jacob Fromm`,
-    image: `https://davidodyssey.com/static/DAVID_SPLASH_PAGE_2-b5a4d9efca674b257511929c2bcd3967.jpg`
+    image: `https://davidodyssey.com/static/DAVID_SPLASH_PAGE_2-b5a4d9efca674b257511929c2bcd3967.jpg`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,14 +24,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-  //   {
-  //   resolve: 'gatsby-plugin-og-images',
-  //   options: {
-  //     template: 'og',
-  //     domain: `https://davidodyssey.com`,
-  //     debug: true
-  //   }
-  // },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -47,20 +39,21 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-sanity',
+      resolve: "gatsby-source-sanity",
       options: {
         ...clientConfig.sanity,
-        projectId: 'tnd2c0o9',
-        dataset: 'production',
+        projectId: "tnd2c0o9",
+        dataset: "production",
         overlayDrafts: true,
         watchMode: true,
-        token: 'skCpnXZUax9LyYZob4EaM7MeJp7d2dXzvx9WTCo92DUyBgjHnWqyoDWDbsnUd7Y7P935wQv7c35p7dqkMwxieBMMzSbvhpg2mbrF7THWYZ4wwAE45GC6A5p2kg7dClAAfwMiSJLu6225ynG82eKHuANdozTd5MpoxiDUfL68W4r0yjICSuQm',
+        token:
+          "skCpnXZUax9LyYZob4EaM7MeJp7d2dXzvx9WTCo92DUyBgjHnWqyoDWDbsnUd7Y7P935wQv7c35p7dqkMwxieBMMzSbvhpg2mbrF7THWYZ4wwAE45GC6A5p2kg7dClAAfwMiSJLu6225ynG82eKHuANdozTd5MpoxiDUfL68W4r0yjICSuQm",
         // a token with read permissions is required
         // if you have a private dataset
         // token: process.env.MY_SANITY_TOKEN,
         // watchMode: !isProd,
         // overlayDrafts: !isProd && token
-      }
+      },
     },
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality

@@ -24,7 +24,7 @@ export default class TestimonialCarousel extends Component {
             autoplaySpeed: 10000
         }
 
-    console.log("testimonial page props", this.props.testimonials)
+
         return(
             <div className="slider-container">
                 <Slider ref={slider => (this.slider = slider)} {...settings} >

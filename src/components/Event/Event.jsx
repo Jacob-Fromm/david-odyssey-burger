@@ -12,7 +12,6 @@ export default function Event(props) {
     }
     return(
         <>
-           {console.log("Event component props", props)} 
             <Link style={linkStyles} to={props.url}>
                 <div className="event-container">
                     <div className="event-details">

@@ -9,7 +9,7 @@ export default function CalendlyPopup(props) {
     const comboData = []
     const separateData = (arr) => {
         for (let i = 0; i < arr.length; i++) {
-            console.log("data from function: ", arr[i])
+          
             if (arr[i].node.category === "Tarot") {
                 tarotData.push(arr[i])
             } else if (arr[i].node.category === "Astrology") {
@@ -29,7 +29,7 @@ export default function CalendlyPopup(props) {
         return arr.map ((tarotItem) => {
             return (
                 <div className='calendly-btn-and-text'>
-                    {console.log("makeTarot function: ", tarotItem.node)}
+                  
                     <div className='calendly-title-and-text'>
                         <h4><strong>{tarotItem.node.title}, ${tarotItem.node.price}</strong></h4>
                         <p><em>{tarotItem.node.description}</em></p>
@@ -46,7 +46,7 @@ export default function CalendlyPopup(props) {
         return arr.map ((astroItem) => {
             return (
                 <div className='calendly-btn-and-text'>
-                    {console.log("makeastro function: ", astroItem.node)}
+                  
                     <div className='calendly-title-and-text'>
                         <h4><strong>{astroItem.node.title}, ${astroItem.node.price}</strong></h4>
                         <p><em>{astroItem.node.description}</em></p>
@@ -63,7 +63,7 @@ export default function CalendlyPopup(props) {
         return arr.map ((comboItem) => {
             return (
                 <div className='calendly-btn-and-text'>
-                    {console.log("makecombo function: ", comboItem.node)}
+                 
                     <div className='calendly-title-and-text'>
                         <h4><strong>{comboItem.node.title}, ${comboItem.node.price}</strong></h4>
                         <p><em>{comboItem.node.description}</em></p>

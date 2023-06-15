@@ -9,7 +9,7 @@ const linkStyles = {
 }
 
 export default function About(props){
-  console.log("about page props ", props.articles)
+
 
     return(
         <>

@@ -68,7 +68,6 @@ export const query = graphql`
 
 const IndexPage = props => {
   const { data, errors } = props
-  console.log("index page data ", data)
   return (
     <Layout data={data}>
       <SEO title="David Odyssey" />

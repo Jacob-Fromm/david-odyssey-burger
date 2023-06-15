@@ -4,7 +4,7 @@ import ArticlePreview from './article-preview'
 
 
 function ArticlePreviewGrid(props) {
-    console.log("APG props ", props)
+   
     const articles = props.articles
     return (
         <div className="article-root">

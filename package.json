@@ -63,5 +63,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  },
+  "resolutions": {
+  "gatsby-plugin-sharp/probe-image-size": "^7.0.0"
+}
 }
